@@ -1,0 +1,15 @@
+@media (max-width: 767px) {
+  #footer {
+    padding: 1rem;
+    text-align: center;
+    .connecting {
+      .tweets {
+        li {
+          div {
+            text-align: left;
+          }
+        }
+      }
+    }
+  }
+}

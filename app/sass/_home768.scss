@@ -1,0 +1,27 @@
+@media (min-width: 768px) and (max-width: 991px) {
+  #home {
+    .home-slider {
+      .home-slider-content {
+        .slider-text {
+          text-align: center;
+          h1 {
+            margin-top: 2rem;
+          }
+          p {
+            margin-bottom: 2rem;
+          }
+        }
+        .slider-item {
+          .slider-img {
+            width: 74rem;
+            padding: 2rem 0 2rem 11rem;
+          }
+        }
+      }
+    }
+
+  }
+}
+
+
+
