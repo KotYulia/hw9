@@ -13,6 +13,7 @@
 	src: url(../fonts/Code-Light.svg);
 	src: url(../fonts/Code-Light.woff);
 }
+/*@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');*/
 
 body {
 	background-color: #f6f6f6;
@@ -29,6 +30,11 @@ body {
 		list-style: none;
 	}
 }
+/*@media (min-width: 1200px) {
+	.container {
+		width: 140rem;
+	}
+}*/
 
 @import "header";
 @import "header320";

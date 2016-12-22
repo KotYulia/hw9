@@ -9,8 +9,8 @@
       opacity: 1;
       .carousel-left, .carousel-right {
         font-size: 3rem;
-        padding: 3.5rem 2rem ;
-        background-color: #000;
+        padding: 3.5rem 1rem ;
+        background-color: #000000;
       }
     }
     .home-indicators {
@@ -22,14 +22,11 @@
         width: 2.6rem;
         height: 2.6rem;
         border-radius: 0;
-       background-color: #3f3f44;
+        background-color: #3f3f44;
       }
     }
     .home-slider-content {
-      display: flex;
-      justify-content: center;
       .slider-text {
-        width: 55rem;
         float: left;
         h1 {
           margin-top: 12rem;

@@ -13,6 +13,7 @@
   src: url(../fonts/Code-Light.svg);
   src: url(../fonts/Code-Light.woff); }
 
+/*@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');*/
 body {
   background-color: #f6f6f6; }
   body h1, body p, body span, body a {
@@ -24,7 +25,12 @@ body {
   body ul {
     list-style: none; }
 
-#header {
+/*@media (min-width: 1200px) {
+	.container {
+		width: 140rem;
+	}
+}*/
+#header .header {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -37,42 +43,49 @@ body {
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
-  margin: 0.5em 9em;
-  max-height: 17rem; }
-  #header .nav-skokov li a {
+  max-height: 17rem;
+  margin: 0; }
+  #header .header .nav-skokov li a {
     font: 300 1.6em 'Code', light;
     color: #000000;
     padding: 3rem 1rem;
     margin-left: 6rem; }
-    #header .nav-skokov li a:hover {
+    #header .header .nav-skokov li a:hover {
       background-color: #ffeb00; }
 
 @media (max-width: 767px) {
-  #header {
+  #header .header {
     display: block;
     margin: 0 auto; }
-    #header .navbar-header .button-skokov {
+    #header .header .navbar-header .button-skokov {
       border-color: #000000;
       margin-top: 4em; }
-      #header .navbar-header .button-skokov span {
+      #header .header .navbar-header .button-skokov span {
         background-color: #000000; }
-      #header .navbar-header .button-skokov:hover {
+      #header .header .navbar-header .button-skokov:hover {
         background-color: #ffeb00; }
-    #header .nav-skokov li a {
-      padding: 0.5em;
-      margin: 0 2em; } }
+    #header .header .nav-skokov {
+      position: absolute;
+      width: 100%;
+      right: 0;
+      z-index: 1;
+      text-align: center;
+      background-color: #f6f6f6;
+      border: 1px solid #000000;
+      margin: 0; }
+      #header .header .nav-skokov li a {
+        padding: 0.5em;
+        margin: 0; } }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  #header {
-    margin: 0 2em; }
-    #header .nav-skokov li a {
-      margin-left: 1rem; } }
+  #header .header .nav-skokov li a {
+    margin-left: 1rem; } }
 
 @media (min-width: 992px) and (max-width: 1199px) {
   #header {
     margin: 0 2em; }
-    #header .nav-skokov li a {
-      margin-left: 2em; } }
+    #header .header .nav-skokov li a {
+      margin-left: 2rem; } }
 
 #home {
   background: url("../img/slider-bg.png") center/cover no-repeat; }
@@ -85,8 +98,8 @@ body {
       opacity: 1; }
       #home .home-slider .home-carousel .carousel-left, #home .home-slider .home-carousel .carousel-right {
         font-size: 3rem;
-        padding: 3.5rem 2rem;
-        background-color: #000; }
+        padding: 3.5rem 1rem;
+        background-color: #000000; }
     #home .home-slider .home-indicators .active {
       background-color: #ffeb00;
       border: 2px solid #3f3f44; }
@@ -96,55 +109,45 @@ body {
       -webkit-border-radius: 0;
               border-radius: 0;
       background-color: #3f3f44; }
-    #home .home-slider .home-slider-content {
-      display: -webkit-box;
-      display: -webkit-flex;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-pack: center;
-      -webkit-justify-content: center;
-          -ms-flex-pack: center;
-              justify-content: center; }
-      #home .home-slider .home-slider-content .slider-text {
-        width: 55rem;
-        float: left; }
-        #home .home-slider .home-slider-content .slider-text h1 {
-          margin-top: 12rem;
-          width: 64rem; }
-          #home .home-slider .home-slider-content .slider-text h1 span {
-            display: block;
-            font-size: 7rem;
-            line-height: 8rem;
-            color: #000000;
-            background-color: #ffeb00;
-            margin-top: 0.8rem; }
-          #home .home-slider .home-slider-content .slider-text h1 .we-believe {
-            width: 39rem; }
-        #home .home-slider .home-slider-content .slider-text p {
-          margin-bottom: 7rem;
-          width: 36rem; }
-          #home .home-slider .home-slider-content .slider-text p span {
-            font-size: 2.4rem;
-            line-height: 3.3rem;
-            background-color: #3f3f44;
-            color: #ffffff; }
-        #home .home-slider .home-slider-content .slider-text a {
-          padding: 1rem 3rem;
+    #home .home-slider .home-slider-content .slider-text {
+      float: left; }
+      #home .home-slider .home-slider-content .slider-text h1 {
+        margin-top: 12rem;
+        width: 64rem; }
+        #home .home-slider .home-slider-content .slider-text h1 span {
+          display: block;
+          font-size: 7rem;
+          line-height: 8rem;
+          color: #000000;
+          background-color: #ffeb00;
+          margin-top: 0.8rem; }
+        #home .home-slider .home-slider-content .slider-text h1 .we-believe {
+          width: 39rem; }
+      #home .home-slider .home-slider-content .slider-text p {
+        margin-bottom: 7rem;
+        width: 36rem; }
+        #home .home-slider .home-slider-content .slider-text p span {
           font-size: 2.4rem;
-          background-color: #000000;
-          color: #ffffff;
-          text-decoration: none;
-          margin-left: 40%;
-          border-bottom: 3px solid #ffeb00; }
-      #home .home-slider .home-slider-content .slider-img {
-        width: 72.4rem;
-        float: left;
-        margin: 2.2rem 0 8rem -6rem; }
-        #home .home-slider .home-slider-content .slider-img img {
-          display: inline-block;
-          float: left; }
-        #home .home-slider .home-slider-content .slider-img .foto-man {
-          margin-left: 18rem; }
+          line-height: 3.3rem;
+          background-color: #3f3f44;
+          color: #ffffff; }
+      #home .home-slider .home-slider-content .slider-text a {
+        padding: 1rem 3rem;
+        font-size: 2.4rem;
+        background-color: #000000;
+        color: #ffffff;
+        text-decoration: none;
+        margin-left: 40%;
+        border-bottom: 3px solid #ffeb00; }
+    #home .home-slider .home-slider-content .slider-img {
+      width: 72.4rem;
+      float: left;
+      margin: 2.2rem 0 8rem -6rem; }
+      #home .home-slider .home-slider-content .slider-img img {
+        display: inline-block;
+        float: left; }
+      #home .home-slider .home-slider-content .slider-img .foto-man {
+        margin-left: 18rem; }
 
 #designs {
   padding: 9rem 0;

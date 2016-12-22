@@ -11,52 +11,54 @@
 
 </head>
 <body>
-    <header id="header">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed button-skokov" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <h1>
-                <a href="#header">
-                    <img src="img/logo.png" alt="Logotype" />
-                </a>
-            </h1>
-        </div>
-        <ul id="navbar" class="nav navbar-nav nav-skokov">
-            <li>
-                <a href="#">HOME</a>
-            </li>
-            <li>
-                <a href="#">PORTFOLIO</a>
-            </li>
-            <li>
-                <a href="#">BLOG</a>
-            </li>
-            <li>
-                <a href="#">ABOUT US</a>
-            </li>
-            <li>
-                <a href="#">CONTACT</a>
-            </li>
-        </ul>
+    <header id="header" class="container">
+        <nav class="header">
+            <div class="navbar-static-top navbar-header">
+                <button type="button" class="navbar-toggle collapsed button-skokov" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <h1>
+                    <a href="#header">
+                        <img src="img/logo.png" alt="Logotype" />
+                    </a>
+                </h1>
+            </div>
+            <ul id="navbar" class="nav navbar-nav nav-skokov">
+                <li>
+                    <a href="#">HOME</a>
+                </li>
+                <li>
+                    <a href="#">PORTFOLIO</a>
+                </li>
+                <li>
+                    <a href="#">BLOG</a>
+                </li>
+                <li>
+                    <a href="#">ABOUT US</a>
+                </li>
+                <li>
+                    <a href="#">CONTACT</a>
+                </li>
+            </ul>
+        </nav>
     </header>
-    <section id="home">
+    <section id="home" class="container">
         <div id="carousel-example-generic" class="carousel slide home-slider" data-ride="carousel">
             <!-- Indicators -->
             <ol class="carousel-indicators home-indicators">
                 <li data-target="#carousel-example-generic" data-slide-to="0" class="active home-indicators-element"></li>
                 <li data-target="#carousel-example-generic" data-slide-to="1" class="home-indicators-element"></li>
                 <li data-target="#carousel-example-generic" data-slide-to="2" class="home-indicators-element"></li>
-                <li data-target="#carousel-example-generic" data-slide-to="2" class="home-indicators-element"></li>
-                <li data-target="#carousel-example-generic" data-slide-to="2" class="home-indicators-element"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="3" class="home-indicators-element"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="4" class="home-indicators-element"></li>
             </ol>
             <!-- Wrapper for slides -->
             <div class="carousel-inner home-slider-content" role="listbox">
-                <div class="item active slider-item">
-                    <div class="slider-text">
+                <div class="item active slider-item row">
+                    <div class="slider-text col-md-6">
                         <h1>
                             <span class="we-believe">We believe</span>
                             <span>in quality design</span>
@@ -68,22 +70,22 @@
                         </p>
                         <a href="#" class="order-now">Order Now</a>
                     </div>
-                    <div class="slider-img">
-                        <img src="img/people-foto-1.png" alt="Foto of a man" class="img-responsive">
-                        <img src="img/people-foto-2.png" alt="Foto of a man" class="img-responsive">
-                        <img src="img/people-foto-3.png" alt="Foto of a man" class="img-responsive">
-                        <img src="img/people-foto-4.png" alt="Foto of a man" class="img-responsive foto-man">
-                        <img src="img/people-foto-5.png" alt="Foto of a man" class="img-responsive">
-                        <img src="img/people-foto-6.png" alt="Foto of a man" class="img-responsive">
-                        <img src="img/people-foto-7.png" alt="Foto of a man" class="img-responsive">
-                        <img src="img/people-foto-8.png" alt="Foto of a man" class="img-responsive">
-                        <img src="img/people-foto-9.png" alt="Foto of a man" class="img-responsive">
-                        <img src="img/people-foto-10.png" alt="Foto of a man" class="img-responsive foto-man">
+                    <div class="slider-img col-md-6">
+                        <img src="img/people-foto-1.png" alt="Foto of a man" class="col-xs-3 img-responsive">
+                        <img src="img/people-foto-2.png" alt="Foto of a man" class="col-xs-3 img-responsive">
+                        <img src="img/people-foto-3.png" alt="Foto of a man" class="col-xs-3 img-responsive">
+                        <img src="img/people-foto-4.png" alt="Foto of a man" class="col-xs-3 col-xs-offset-3 img-responsive foto-man">
+                        <img src="img/people-foto-5.png" alt="Foto of a man" class="col-xs-3 img-responsive">
+                        <img src="img/people-foto-6.png" alt="Foto of a man" class="col-xs-3 img-responsive">
+                        <img src="img/people-foto-7.png" alt="Foto of a man" class="col-xs-3 img-responsive">
+                        <img src="img/people-foto-8.png" alt="Foto of a man" class="col-xs-3 img-responsive">
+                        <img src="img/people-foto-9.png" alt="Foto of a man" class="col-xs-3 img-responsive">
+                        <img src="img/people-foto-10.png" alt="Foto of a man" class="col-xs-3 col-xs-offset-3 img-responsive foto-man">
                     </div>
                     <div class="carousel-caption"></div>
                 </div>
                 <div class="item slider-item">
-                    <div class="slider-text">
+                    <div class="slider-text col-md-6">
                         <h1>
                             <span class="we-believe">We believe</span>
                             <span>in quality design</span>
@@ -95,22 +97,22 @@
                         </p>
                         <a href="#" class="order-now">Order Now</a>
                     </div>
-                    <div class="slider-img">
-                        <img src="img/people-foto-1.png" alt="Foto of a man" class="img-responsive">
-                        <img src="img/people-foto-2.png" alt="Foto of a man" class="img-responsive">
-                        <img src="img/people-foto-3.png" alt="Foto of a man" class="img-responsive">
-                        <img src="img/people-foto-4.png" alt="Foto of a man" class="img-responsive foto-man">
-                        <img src="img/people-foto-5.png" alt="Foto of a man" class="img-responsive">
-                        <img src="img/people-foto-6.png" alt="Foto of a man" class="img-responsive">
-                        <img src="img/people-foto-7.png" alt="Foto of a man" class="img-responsive">
-                        <img src="img/people-foto-8.png" alt="Foto of a man" class="img-responsive">
-                        <img src="img/people-foto-9.png" alt="Foto of a man" class="img-responsive">
-                        <img src="img/people-foto-10.png" alt="Foto of a man" class="img-responsive foto-man">
+                    <div class="slider-img col-md-6">
+                        <img src="img/people-foto-1.png" alt="Foto of a man" class="col-xs-3 img-responsive">
+                        <img src="img/people-foto-2.png" alt="Foto of a man" class="col-xs-3 img-responsive">
+                        <img src="img/people-foto-3.png" alt="Foto of a man" class="col-xs-3 img-responsive">
+                        <img src="img/people-foto-4.png" alt="Foto of a man" class="col-xs-3 col-xs-offset-3 img-responsive foto-man">
+                        <img src="img/people-foto-5.png" alt="Foto of a man" class="col-xs-3 img-responsive">
+                        <img src="img/people-foto-6.png" alt="Foto of a man" class="col-xs-3 img-responsive">
+                        <img src="img/people-foto-7.png" alt="Foto of a man" class="col-xs-3 img-responsive">
+                        <img src="img/people-foto-8.png" alt="Foto of a man" class="col-xs-3 img-responsive">
+                        <img src="img/people-foto-9.png" alt="Foto of a man" class="col-xs-3 img-responsive">
+                        <img src="img/people-foto-10.png" alt="Foto of a man" class="col-xs-3 col-xs-offset-3 img-responsive foto-man">
                     </div>
                     <div class="carousel-caption"></div>
                 </div>
                 <div class="item slider-item">
-                    <div class="slider-text">
+                    <div class="slider-text col-md-6">
                         <h1>
                             <span class="we-believe">We believe</span>
                             <span>in quality design</span>
@@ -122,22 +124,22 @@
                         </p>
                         <a href="#" class="order-now">Order Now</a>
                     </div>
-                    <div class="slider-img">
-                        <img src="img/people-foto-1.png" alt="Foto of a man" class="img-responsive">
-                        <img src="img/people-foto-2.png" alt="Foto of a man" class="img-responsive">
-                        <img src="img/people-foto-3.png" alt="Foto of a man" class="img-responsive">
-                        <img src="img/people-foto-4.png" alt="Foto of a man" class="img-responsive foto-man">
-                        <img src="img/people-foto-5.png" alt="Foto of a man" class="img-responsive">
-                        <img src="img/people-foto-6.png" alt="Foto of a man" class="img-responsive">
-                        <img src="img/people-foto-7.png" alt="Foto of a man" class="img-responsive">
-                        <img src="img/people-foto-8.png" alt="Foto of a man" class="img-responsive">
-                        <img src="img/people-foto-9.png" alt="Foto of a man" class="img-responsive">
-                        <img src="img/people-foto-10.png" alt="Foto of a man" class="img-responsive foto-man">
+                    <div class="slider-img col-md-6">
+                        <img src="img/people-foto-1.png" alt="Foto of a man" class="col-xs-3 img-responsive">
+                        <img src="img/people-foto-2.png" alt="Foto of a man" class="col-xs-3 img-responsive">
+                        <img src="img/people-foto-3.png" alt="Foto of a man" class="col-xs-3 img-responsive">
+                        <img src="img/people-foto-4.png" alt="Foto of a man" class="col-xs-3 col-xs-offset-3 img-responsive foto-man">
+                        <img src="img/people-foto-5.png" alt="Foto of a man" class="col-xs-3 img-responsive">
+                        <img src="img/people-foto-6.png" alt="Foto of a man" class="col-xs-3 img-responsive">
+                        <img src="img/people-foto-7.png" alt="Foto of a man" class="col-xs-3 img-responsive">
+                        <img src="img/people-foto-8.png" alt="Foto of a man" class="col-xs-3 img-responsive">
+                        <img src="img/people-foto-9.png" alt="Foto of a man" class="col-xs-3 img-responsive">
+                        <img src="img/people-foto-10.png" alt="Foto of a man" class="col-xs-3 col-xs-offset-3 img-responsive foto-man">
                     </div>
                     <div class="carousel-caption"></div>
                 </div>
                 <div class="item slider-item">
-                    <div class="slider-text">
+                    <div class="slider-text col-md-6">
                         <h1>
                             <span class="we-believe">We believe</span>
                             <span>in quality design</span>
@@ -149,22 +151,22 @@
                         </p>
                         <a href="#" class="order-now">Order Now</a>
                     </div>
-                    <div class="slider-img">
-                        <img src="img/people-foto-1.png" alt="Foto of a man" class="img-responsive">
-                        <img src="img/people-foto-2.png" alt="Foto of a man" class="img-responsive">
-                        <img src="img/people-foto-3.png" alt="Foto of a man" class="img-responsive">
-                        <img src="img/people-foto-4.png" alt="Foto of a man" class="img-responsive foto-man">
-                        <img src="img/people-foto-5.png" alt="Foto of a man" class="img-responsive">
-                        <img src="img/people-foto-6.png" alt="Foto of a man" class="img-responsive">
-                        <img src="img/people-foto-7.png" alt="Foto of a man" class="img-responsive">
-                        <img src="img/people-foto-8.png" alt="Foto of a man" class="img-responsive">
-                        <img src="img/people-foto-9.png" alt="Foto of a man" class="img-responsive">
-                        <img src="img/people-foto-10.png" alt="Foto of a man" class="img-responsive foto-man">
+                    <div class="slider-img col-md-6">
+                        <img src="img/people-foto-1.png" alt="Foto of a man" class="col-xs-3 img-responsive">
+                        <img src="img/people-foto-2.png" alt="Foto of a man" class="col-xs-3 img-responsive">
+                        <img src="img/people-foto-3.png" alt="Foto of a man" class="col-xs-3 img-responsive">
+                        <img src="img/people-foto-4.png" alt="Foto of a man" class="col-xs-3 col-xs-offset-3 img-responsive foto-man">
+                        <img src="img/people-foto-5.png" alt="Foto of a man" class="col-xs-3 img-responsive">
+                        <img src="img/people-foto-6.png" alt="Foto of a man" class="col-xs-3 img-responsive">
+                        <img src="img/people-foto-7.png" alt="Foto of a man" class="col-xs-3 img-responsive">
+                        <img src="img/people-foto-8.png" alt="Foto of a man" class="col-xs-3 img-responsive">
+                        <img src="img/people-foto-9.png" alt="Foto of a man" class="col-xs-3 img-responsive">
+                        <img src="img/people-foto-10.png" alt="Foto of a man" class="col-xs-3 col-xs-offset-3 img-responsive foto-man">
                     </div>
                     <div class="carousel-caption"></div>
                 </div>
                 <div class="item slider-item">
-                    <div class="slider-text">
+                    <div class="slider-text col-md-6">
                         <h1>
                             <span class="we-believe">We believe</span>
                             <span>in quality design</span>
@@ -176,17 +178,17 @@
                         </p>
                         <a href="#" class="order-now">Order Now</a>
                     </div>
-                    <div class="slider-img">
-                        <img src="img/people-foto-1.png" alt="Foto of a man" class="img-responsive">
-                        <img src="img/people-foto-2.png" alt="Foto of a man" class="img-responsive">
-                        <img src="img/people-foto-3.png" alt="Foto of a man" class="img-responsive">
-                        <img src="img/people-foto-4.png" alt="Foto of a man" class="img-responsive foto-man">
-                        <img src="img/people-foto-5.png" alt="Foto of a man" class="img-responsive">
-                        <img src="img/people-foto-6.png" alt="Foto of a man" class="img-responsive">
-                        <img src="img/people-foto-7.png" alt="Foto of a man" class="img-responsive">
-                        <img src="img/people-foto-8.png" alt="Foto of a man" class="img-responsive">
-                        <img src="img/people-foto-9.png" alt="Foto of a man" class="img-responsive">
-                        <img src="img/people-foto-10.png" alt="Foto of a man" class="img-responsive foto-man">
+                    <div class="slider-img col-md-6">
+                        <img src="img/people-foto-1.png" alt="Foto of a man" class="col-xs-3 img-responsive">
+                        <img src="img/people-foto-2.png" alt="Foto of a man" class="col-xs-3 img-responsive">
+                        <img src="img/people-foto-3.png" alt="Foto of a man" class="col-xs-3 img-responsive">
+                        <img src="img/people-foto-4.png" alt="Foto of a man" class="col-xs-3 col-xs-offset-3 img-responsive foto-man">
+                        <img src="img/people-foto-5.png" alt="Foto of a man" class="col-xs-3 img-responsive">
+                        <img src="img/people-foto-6.png" alt="Foto of a man" class="col-xs-3 img-responsive">
+                        <img src="img/people-foto-7.png" alt="Foto of a man" class="col-xs-3 img-responsive">
+                        <img src="img/people-foto-8.png" alt="Foto of a man" class="col-xs-3 img-responsive">
+                        <img src="img/people-foto-9.png" alt="Foto of a man" class="col-xs-3 img-responsive">
+                        <img src="img/people-foto-10.png" alt="Foto of a man" class="col-xs-3 col-xs-offset-3 img-responsive foto-man">
                     </div>
                     <div class="carousel-caption"></div>
                 </div>
