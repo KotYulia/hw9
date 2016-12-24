@@ -429,7 +429,7 @@ body {
 #footer {
   background-color: #3f3f44;
   color: #ffffff;
-  padding: 3rem 11rem 0; }
+  padding: 3rem 9rem 3rem; }
   #footer .yellow {
     color: #ffeb00; }
   #footer h3 {
@@ -515,10 +515,49 @@ body {
           padding-top: 0.7rem; }
         #footer .contact .address ul li .contact-email {
           margin-top: 0.7rem; }
+  #footer .contact #mc-form {
+    margin-bottom: 5rem; }
+    #footer .contact #mc-form .mc-email {
+      border: none;
+      background: none;
+      border-bottom: 1px solid #ffeb00;
+      color: #ffffff;
+      font-size: 1.7rem; }
+    #footer .contact #mc-form .mc-button {
+      background-color: #000000;
+      border: none;
+      width: 2.8rem;
+      height: 2.8rem; }
+    #footer .contact #mc-form .fa-envelope-o {
+      font-size: 1.6rem;
+      margin-left: -2.6rem;
+      padding-bottom: 0.5rem; }
 
 @media (max-width: 767px) {
   #footer {
     padding: 1rem;
     text-align: center; }
-    #footer .connecting .tweets li div {
-      text-align: left; } }
+    #footer .about ul {
+      width: 30rem;
+      margin: 0 auto; }
+      #footer .about ul li {
+        padding: 0.6rem; }
+    #footer .connecting .tweets {
+      width: 30rem;
+      margin: 0 auto; }
+      #footer .connecting .tweets li div {
+        text-align: left; }
+    #footer .connecting .social {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+          -ms-flex-pack: center;
+              justify-content: center; }
+    #footer .contact .address {
+      margin-top: 2rem; }
+      #footer .contact .address ul {
+        width: 30rem;
+        margin: 0 auto; } }

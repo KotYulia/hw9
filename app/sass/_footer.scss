@@ -1,7 +1,7 @@
 #footer {
   background-color: #3f3f44;
   color: #ffffff;
-  padding: 3rem 11rem 0;
+  padding: 3rem 9rem 3rem;
   .yellow {
     color: #ffeb00;
   }
@@ -64,6 +64,7 @@
       }
     }
     .social {
+
       h3 {
         display: block;
       }
@@ -114,6 +115,27 @@
             margin-top: 0.7rem;
           }
         }
+      }
+    }
+    #mc-form {
+      margin-bottom: 5rem;
+      .mc-email {
+        border: none;
+        background: none;
+        border-bottom: 1px solid #ffeb00;
+        color: #ffffff;
+        font-size: 1.7rem;
+        }
+      .mc-button {
+        background-color: #000000;
+        border: none;
+        width: 2.8rem;
+        height: 2.8rem;
+      }
+      .fa-envelope-o {
+        font-size: 1.6rem;
+        margin-left: -2.6rem;
+        padding-bottom: 0.5rem;
       }
     }
   }

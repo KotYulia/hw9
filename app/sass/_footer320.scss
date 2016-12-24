@@ -2,12 +2,38 @@
   #footer {
     padding: 1rem;
     text-align: center;
+    .about {
+      ul {
+        width: 30rem;
+        margin: 0 auto;
+        li {
+          padding: 0.6rem;
+        }
+      }
+    }
     .connecting {
       .tweets {
+        width: 30rem;
+        margin: 0 auto;
         li {
           div {
             text-align: left;
           }
+        }
+      }
+      .social {
+        display: flex;
+        justify-content: center;
+      }
+    }
+
+
+    .contact {
+      .address {
+        margin-top: 2rem;
+        ul {
+          width: 30rem;
+          margin: 0 auto;
         }
       }
     }
