@@ -5,8 +5,14 @@
     <title>Skokov</title>
     <link rel="stylesheet" href="css/libs.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+
     <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="css/main-portfolio.css">
+
+    <!-- подключение CSS файла Fancybox -->
+    <link rel="stylesheet" href="fancybox/jquery.fancybox.css" type="text/css" media="screen" />
+    <!-- Подключение JS файла Fancybox -->
+    <script type="text/javascript" src="fancybox/jquery.fancybox.pack.js"></script>
 
 </head>
 <body>
@@ -27,10 +33,10 @@
             </div>
             <ul id="navbar" class="nav navbar-nav nav-skokov">
                 <li>
-                    <a href="#">HOME</a>
+                    <a href="index.html">HOME</a>
                 </li>
                 <li>
-                    <a href="#">PORTFOLIO</a>
+                    <a href="portfolio.html">PORTFOLIO</a>
                 </li>
                 <li>
                     <a href="#">BLOG</a>
@@ -57,16 +63,19 @@
                         <a href="#all" aria-controls="all" role="tab" data-toggle="tab">All</a>
                     </li>
                     <li>
-                        <a href="#design" aria-controls="design" role="tab" data-toggle="tab">Design</a>
+                        <a href="#website" aria-controls="website" role="tab" data-toggle="tab">Website</a>
                     </li>
                     <li>
-                        <a href="#web" aria-controls="web" role="tab" data-toggle="tab">Web</a>
+                        <a href="#logo" aria-controls="logo" role="tab" data-toggle="tab">Logo</a>
                     </li>
                     <li>
-                        <a href="#illusration" aria-controls="illusration" role="tab" data-toggle="tab">Illusration</a>
+                        <a href="#ui-kit" aria-controls="ui-kit" role="tab" data-toggle="tab">UI kit</a>
                     </li>
                     <li>
-                        <a href="#motion" aria-controls="motion" role="tab" data-toggle="tab">Motion</a>
+                        <a href="#photo" aria-controls="photo" role="tab" data-toggle="tab">Photo</a>
+                    </li>
+                    <li>
+                        <a href="#design" aria-controls="design" role="tab" data-toggle="tab">App Design</a>
                     </li>
                 </ul>
             </div>
@@ -75,45 +84,167 @@
             <div id="all" role="tabpanel" class="row tab-pane active">
                 <ul class="example">
                     <li class="col-sm-12 col-md-6 col-lg-4">
-                        <img class="img-responsive" src="images/fossil-free-banks.png" alt="fossil-free-banks" />
-                        <div class="tab-hover">
-                            <h2>Project Title</h2>
-                            <a class="project btn btn-primary" data-toggle="modal" href="#myModal">View Project</a>
+                        <img class="img-responsive" src="img/tabimg-1.png" alt="fossil-free-banks" />
+                        <div class="img-hover">
+                            <a href="img/tabimg-1-lg.png" class="fa fa-arrow-right fancyimage"></a>
                         </div>
                     </li>
                     <li class="col-sm-12 col-md-6 col-lg-4">
-                        <img class="img-responsive" src="images/contacts.png" alt="contacts" />
-                        <div class="tab-hover">
-                            <h2>Project Title</h2>
-                            <a class="project btn btn-primary" data-toggle="modal" href="#myModal">View Project</a>
+                        <img class="img-responsive" src="img/tabimg-2.png" alt="contacts" />
+                        <div class="img-hover">
+                            <a href="img/tabimg-2-lg.png" class="fa fa-arrow-right fancyimage"></a>
                         </div>
                     </li>
                     <li class="col-sm-12 col-md-6 col-lg-4">
-                        <img class="img-responsive" src="images/south-east.png" alt="south-east" />
-                        <div class="tab-hover">
-                            <h2>Project Title</h2>
-                            <a class="project btn btn-primary" data-toggle="modal" href="#myModal">View Project</a>
+                        <img class="img-responsive" src="img/tabimg-3.png" alt="south-east" />
+                        <div class="img-hover">
+                            <a href="img/tabimg-3-lg.png" class="fa fa-arrow-right fancyimage"></a>
                         </div>
                     </li>
                     <li class="col-sm-12 col-md-6 col-lg-4">
-                        <img class="img-responsive" src="images/heading-one.png" alt="heading-one" />
-                        <div class="tab-hover">
-                            <h2>Project Title</h2>
-                            <a class="project btn btn-primary" data-toggle="modal" href="#myModal">View Project</a>
+                        <img class="img-responsive" src="img/tabimg-4.png" alt="heading-one" />
+                        <div class="img-hover">
+                            <a href="img/tabimg-4-lg.png" class="fa fa-arrow-right fancyimage"></a>
                         </div>
                     </li>
                     <li class="col-sm-12 col-md-6 col-lg-4">
-                        <img class="img-responsive" src="images/350-org.png" alt="350-org" />
-                        <div class="tab-hover">
-                            <h2>Project Title</h2>
-                            <a class="project btn btn-primary" data-toggle="modal" href="#myModal">View Project</a>
+                        <img class="img-responsive" src="img/tabimg-5.png" alt="350-org" />
+                        <div class="img-hover">
+                            <a href="img/tabimg-5-lg.png" class="fa fa-arrow-right fancyimage"></a>
                         </div>
                     </li>
                     <li class="col-sm-12 col-md-6 col-lg-4">
-                        <img class="img-responsive" src="images/take-action-today.png" alt="take-action-today" />
-                        <div class="tab-hover">
-                            <h2>Project Title</h2>
-                            <a class="project btn btn-primary" data-toggle="modal" href="#myModal">View Project</a>
+                        <img class="img-responsive" src="img/tabimg-6.png" alt="take-action-today" />
+                        <div class="img-hover">
+                            <a href="img/tabimg-6-lg.png" class="fa fa-arrow-right fancyimage"></a>
+                        </div>
+                    </li>
+                    <li class="col-sm-12 col-md-6 col-lg-4">
+                        <img class="img-responsive" src="img/tabimg-7.png" alt="heading-one" />
+                        <div class="img-hover">
+                            <a href="img/tabimg-7-lg.png" class="fa fa-arrow-right fancyimage"></a>
+                        </div>
+                    </li>
+                    <li class="col-sm-12 col-md-6 col-lg-4">
+                        <img class="img-responsive" src="img/tabimg-8.png" alt="350-org" />
+                        <div class="img-hover">
+                            <a href="img/tabimg-8-lg.png" class="fa fa-arrow-right fancyimage"></a>
+                        </div>
+                    </li>
+                    <li class="col-sm-12 col-md-6 col-lg-4">
+                        <img class="img-responsive" src="img/tabimg-9.png" alt="take-action-today" />
+                        <div class="img-hover">
+                            <a href="img/tabimg-9-lg.png" class="fa fa-arrow-right fancyimage"></a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div id="website" role="tabpanel" class="row tab-pane">
+                <ul class="example">
+                    <li class="col-sm-12 col-md-6 col-lg-4">
+                        <img class="img-responsive" src="img/tabimg-7.png" alt="heading-one" />
+                        <div class="img-hover">
+                            <a href="img/tabimg-7-lg.png" class="fa fa-arrow-right fancyimage"></a>
+                        </div>
+                    </li>
+                    <li class="col-sm-12 col-md-6 col-lg-4">
+                        <img class="img-responsive" src="img/tabimg-8.png" alt="350-org" />
+                        <div class="img-hover">
+                            <a href="img/tabimg-8-lg.png" class="fa fa-arrow-right fancyimage"></a>
+                        </div>
+                    </li>
+                    <li class="col-sm-12 col-md-6 col-lg-4">
+                        <img class="img-responsive" src="img/tabimg-9.png" alt="take-action-today" />
+                        <div class="img-hover">
+                            <a href="img/tabimg-9-lg.png" class="fa fa-arrow-right fancyimage"></a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div id="logo" role="tabpanel" class="row tab-pane">
+                <ul class="example">
+                    <li class="col-sm-12 col-md-6 col-lg-4">
+                        <img class="img-responsive" src="img/tabimg-5.png" alt="350-org" />
+                        <div class="img-hover">
+                            <a href="img/tabimg-5-lg.png" class="fa fa-arrow-right fancyimage"></a>
+                        </div>
+                    </li>
+                    <li class="col-sm-12 col-md-6 col-lg-4">
+                        <img class="img-responsive" src="img/tabimg-6.png" alt="take-action-today" />
+                        <div class="img-hover">
+                            <a href="img/tabimg-6-lg.png" class="fa fa-arrow-right fancyimage"></a>
+                        </div>
+                    </li>
+                    <li class="col-sm-12 col-md-6 col-lg-4">
+                        <img class="img-responsive" src="img/tabimg-7.png" alt="heading-one" />
+                        <div class="img-hover">
+                            <a href="img/tabimg-7-lg.png" class="fa fa-arrow-right fancyimage"></a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div id="ui-kit" role="tabpanel" class="row tab-pane">
+                <ul class="example">
+                    <li class="col-sm-12 col-md-6 col-lg-4">
+                        <img class="img-responsive" src="img/tabimg-2.png" alt="contacts" />
+                        <div class="img-hover">
+                            <a href="img/tabimg-2-lg.png" class="fa fa-arrow-right fancyimage"></a>
+                        </div>
+                    </li>
+                    <li class="col-sm-12 col-md-6 col-lg-4">
+                        <img class="img-responsive" src="img/tabimg-3.png" alt="south-east" />
+                        <div class="img-hover">
+                            <a href="img/tabimg-3-lg.png" class="fa fa-arrow-right fancyimage"></a>
+                        </div>
+                    </li>
+                    <li class="col-sm-12 col-md-6 col-lg-4">
+                        <img class="img-responsive" src="img/tabimg-4.png" alt="heading-one" />
+                        <div class="img-hover">
+                            <a href="img/tabimg-4-lg.png" class="fa fa-arrow-right fancyimage"></a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div id="photo" role="tabpanel" class="row tab-pane">
+                <ul class="example">
+                    <li class="col-sm-12 col-md-6 col-lg-4">
+                        <img class="img-responsive" src="img/tabimg-6.png" alt="take-action-today" />
+                        <div class="img-hover">
+                            <a href="img/tabimg-6-lg.png" class="fa fa-arrow-right fancyimage"></a>
+                        </div>
+                    </li>
+                    <li class="col-sm-12 col-md-6 col-lg-4">
+                        <img class="img-responsive" src="img/tabimg-7.png" alt="heading-one" />
+                        <div class="img-hover">
+                            <a href="img/tabimg-7-lg.png" class="fa fa-arrow-right fancyimage"></a>
+                        </div>
+                    </li>
+                    <li class="col-sm-12 col-md-6 col-lg-4">
+                        <img class="img-responsive" src="img/tabimg-8.png" alt="350-org" />
+                        <div class="img-hover">
+                            <a href="img/tabimg-8-lg.png" class="fa fa-arrow-right fancyimage"></a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div id="design" role="tabpanel" class="row tab-pane">
+                <ul class="example">
+                    <li class="col-sm-12 col-md-6 col-lg-4">
+                        <img class="img-responsive" src="img/tabimg-7.png" alt="heading-one" />
+                        <div class="img-hover">
+                            <a href="img/tabimg-7-lg.png" class="fa fa-arrow-right fancyimage"></a>
+                        </div>
+                    </li>
+                    <li class="col-sm-12 col-md-6 col-lg-4">
+                        <img class="img-responsive" src="img/tabimg-4.png" alt="heading-one" />
+                        <div class="img-hover">
+                            <a href="img/tabimg-4-lg.png" class="fa fa-arrow-right fancyimage"></a>
+                        </div>
+                    </li>
+                    <li class="col-sm-12 col-md-6 col-lg-4">
+                        <img class="img-responsive" src="img/tabimg-2.png" alt="contacts" />
+                        <div class="img-hover">
+                            <a href="img/tabimg-2-lg.png" class="fa fa-arrow-right fancyimage"></a>
                         </div>
                     </li>
                 </ul>
@@ -256,10 +387,10 @@
         </div>
         <ul id="navbar-footer" class="nav navbar-nav nav-skokov-footer">
             <li>
-                <a href="#">HOME</a>
+                <a href="index.html">HOME</a>
             </li>
             <li>
-                <a href="#">PORTFOLIO</a>
+                <a href="portfolio.html">PORTFOLIO</a>
             </li>
             <li>
                 <a href="#">BLOG</a>
@@ -273,6 +404,13 @@
         </ul>
     </footer>
     <script src="js/libs.min.js"></script>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="js/common.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $("a.fancyimage").fancybox();
+        });
+    </script>
 </body>
 </html>
