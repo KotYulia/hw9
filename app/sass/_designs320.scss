@@ -1,0 +1,16 @@
+@media (max-width: 767px) {
+  #designs {
+    padding: 3rem 0;
+    p{
+      margin-bottom: 1rem;
+    }
+    .design {
+      width: 25rem;
+      margin: 0 auto;
+      padding: 0;
+      li {
+        width: 25rem;
+      }
+    }
+  }
+}

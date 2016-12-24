@@ -27,7 +27,7 @@ body {
 
 @media (min-width: 1400px) {
   body > .container {
-    width: 140rem;
+    width: 138rem;
     margin: 0 auto;
     padding: 0; } }
 
@@ -35,6 +35,24 @@ body {
   body > .container {
     width: 100%; } }
 
+/*@media (min-width: 768px) and (max-width: 1399px) {
+	#header {
+		height: 22vh;
+	}
+	#home {
+		height: 78vh;
+		.home-slider {
+			.home-slider-content {
+				.slider-text {
+					height: 78vh;
+				}
+				.slider-img {
+					height: 78vh;
+				}
+			}
+		}
+	}
+}*/
 #header .header {
   display: -webkit-box;
   display: -webkit-flex;
@@ -198,7 +216,7 @@ body {
   #home {
     text-align: center; }
     #home .home-slider .home-carousel {
-      margin: 14rem 1.3rem 0 -1.4rem; }
+      margin: 30rem 1.3rem 0 -1.4rem; }
       #home .home-slider .home-carousel .carousel-left, #home .home-slider .home-carousel .carousel-right {
         font-size: 2rem;
         padding: 2.5rem 0.3rem; }
@@ -237,7 +255,7 @@ body {
     font-size: 2.4rem;
     margin-bottom: 6rem; }
   #designs .design {
-    padding-left: 0; }
+    margin: 0 5rem; }
     #designs .design li:hover .hover {
       display: block; }
     #designs .design li h2 {
@@ -252,13 +270,14 @@ body {
       color: #ffffff;
       background-color: #3f3f44;
       margin-bottom: 0;
-      padding: 3rem; }
+      padding: 3.3rem; }
     #designs .design li .hover {
       display: none;
       position: absolute;
       top: 2rem;
-      right: 0.6rem;
-      left: 1.4rem; }
+      right: 0.5rem;
+      left: 1.5rem;
+      bottom: 10rem; }
       #designs .design li .hover p {
         font: 300 2rem 'Code', Light;
         text-align: left;
@@ -268,11 +287,13 @@ body {
           display: block;
           font: 300 2rem 'Code', Light; }
       #designs .design li .hover img {
-        width: 98%; }
+        width: 97%;
+        height: 100%; }
       #designs .design li .hover .remark {
         font-size: 1rem;
         color: #ffffff;
-        text-align: right; }
+        text-align: right;
+        height: 19%; }
         #designs .design li .hover .remark .yellow {
           display: inline-block;
           font-size: 1rem;
@@ -283,6 +304,10 @@ body {
       width: 11rem;
       height: 8.8rem;
       top: 20%;
+      left: 50%;
+      -webkit-transform: translateX(-50%);
+          -ms-transform: translateX(-50%);
+              transform: translateX(-50%);
       background: url("../img/web-design.png") no-repeat; }
     #designs .design li .web-development:before {
       content: '';
@@ -290,6 +315,10 @@ body {
       width: 11rem;
       height: 8.8rem;
       top: 20%;
+      left: 50%;
+      -webkit-transform: translateX(-50%);
+          -ms-transform: translateX(-50%);
+              transform: translateX(-50%);
       background: url("../img/web-development.png") no-repeat; }
     #designs .design li .graphic-design:before {
       content: '';
@@ -297,7 +326,28 @@ body {
       width: 8.8rem;
       height: 11rem;
       top: 15%;
+      left: 50%;
+      -webkit-transform: translateX(-50%);
+          -ms-transform: translateX(-50%);
+              transform: translateX(-50%);
       background: url("../img/graphic-design.png") no-repeat; }
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  #designs .design {
+    margin: 0;
+    padding: 0; } }
+
+@media (max-width: 767px) {
+  #designs {
+    padding: 3rem 0; }
+    #designs p {
+      margin-bottom: 1rem; }
+    #designs .design {
+      width: 25rem;
+      margin: 0 auto;
+      padding: 0; }
+      #designs .design li {
+        width: 25rem; } }
 
 #portfolio {
   text-align: center;
@@ -340,7 +390,7 @@ body {
 
 #clients {
   text-align: center;
-  margin: 5rem 0 10rem;
+  margin: 5rem auto 10rem;
   padding: 0 3rem;
   overflow: hidden; }
   #clients h1 {
@@ -380,6 +430,8 @@ body {
   background-color: #3f3f44;
   color: #ffffff;
   padding: 3rem 11rem 0; }
+  #footer .yellow {
+    color: #ffeb00; }
   #footer h3 {
     font: 400 1.8rem 'Century Gothic', Regular; }
   #footer p, #footer span {
@@ -418,8 +470,6 @@ body {
         margin-right: 1rem; }
       #footer .connecting .tweets li div .small, #footer .connecting .tweets li div a {
         display: block; }
-      #footer .connecting .tweets li div .yellow {
-        color: #ffeb00; }
       #footer .connecting .tweets li div .small {
         font-size: 0.8rem;
         margin: 0.8rem 0 1.5rem; }
@@ -440,6 +490,31 @@ body {
       height: 3rem;
       background-color: #000000;
       margin-right: 1px; }
+  #footer .contact .address {
+    margin-top: 4rem; }
+    #footer .contact .address ul {
+      padding: 0; }
+      #footer .contact .address ul li {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        margin-bottom: 2rem; }
+        #footer .contact .address ul li .fa {
+          text-align: center;
+          width: 3rem;
+          height: 3rem;
+          background-color: #000000;
+          margin-right: 1.6rem;
+          padding-top: 1rem; }
+        #footer .contact .address ul li .contact-address, #footer .contact .address ul li .contact-phone {
+          margin-top: 1rem; }
+          #footer .contact .address ul li .contact-address span, #footer .contact .address ul li .contact-phone span {
+            display: block; }
+        #footer .contact .address ul li .fa-envelope {
+          padding-top: 0.7rem; }
+        #footer .contact .address ul li .contact-email {
+          margin-top: 0.7rem; }
 
 @media (max-width: 767px) {
   #footer {

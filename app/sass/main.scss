@@ -32,7 +32,7 @@ body {
 }
 @media (min-width: 1400px) {
 	body>.container {
-		width: 140rem;
+		width: 138rem;
 		margin: 0 auto;
 		padding: 0;
 	}
@@ -42,7 +42,24 @@ body {
 		width: 100%;
 	}
 }
-
+/*@media (min-width: 768px) and (max-width: 1399px) {
+	#header {
+		height: 22vh;
+	}
+	#home {
+		height: 78vh;
+		.home-slider {
+			.home-slider-content {
+				.slider-text {
+					height: 78vh;
+				}
+				.slider-img {
+					height: 78vh;
+				}
+			}
+		}
+	}
+}*/
 @import "header";
 @import "header320";
 @import "header768";
@@ -52,6 +69,8 @@ body {
 @import "home768";
 @import "home320";
 @import "designs";
+@import "designs768";
+@import "designs320";
 @import "portfolio";
 @import "clients";
 @import "footer";
