@@ -25,11 +25,16 @@ body {
   body ul {
     list-style: none; }
 
-/*@media (min-width: 1200px) {
-	.container {
-		width: 140rem;
-	}
-}*/
+@media (min-width: 1400px) {
+  body > .container {
+    width: 140rem;
+    margin: 0 auto;
+    padding: 0; } }
+
+@media (max-width: 1399px) {
+  body > .container {
+    width: 100%; } }
+
 #header .header {
   display: -webkit-box;
   display: -webkit-flex;
@@ -82,10 +87,8 @@ body {
     margin-left: 1rem; } }
 
 @media (min-width: 992px) and (max-width: 1199px) {
-  #header {
-    margin: 0 2em; }
-    #header .header .nav-skokov li a {
-      margin-left: 2rem; } }
+  #header .header .nav-skokov li a {
+    margin-left: 2rem; } }
 
 #home {
   background: url("../img/slider-bg.png") center/cover no-repeat; }
@@ -93,13 +96,12 @@ body {
     background: transparent; }
     #home .home-slider .home-carousel {
       width: 0;
-      margin-top: 23rem;
-      margin-right: 7rem;
+      margin: 23rem 4rem 0 0;
       opacity: 1; }
       #home .home-slider .home-carousel .carousel-left, #home .home-slider .home-carousel .carousel-right {
         font-size: 3rem;
-        padding: 3.5rem 1rem;
-        background-color: #000000; }
+        padding: 3.5rem 0.5rem;
+        background-color: #000; }
     #home .home-slider .home-indicators .active {
       background-color: #ffeb00;
       border: 2px solid #3f3f44; }
@@ -110,7 +112,7 @@ body {
               border-radius: 0;
       background-color: #3f3f44; }
     #home .home-slider .home-slider-content .slider-text {
-      float: left; }
+      margin-left: 5rem; }
       #home .home-slider .home-slider-content .slider-text h1 {
         margin-top: 12rem;
         width: 64rem; }
@@ -140,14 +142,89 @@ body {
         margin-left: 40%;
         border-bottom: 3px solid #ffeb00; }
     #home .home-slider .home-slider-content .slider-img {
-      width: 72.4rem;
-      float: left;
-      margin: 2.2rem 0 8rem -6rem; }
+      margin: 2.2rem 7rem 7.8rem -12rem; }
       #home .home-slider .home-slider-content .slider-img img {
-        display: inline-block;
-        float: left; }
-      #home .home-slider .home-slider-content .slider-img .foto-man {
-        margin-left: 18rem; }
+        padding: 0; }
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+  #home .home-slider .home-carousel {
+    width: 0;
+    margin: 20rem 3rem 0 -1rem; }
+  #home .home-slider .home-slider-content .slider-text {
+    margin-left: 2rem; }
+    #home .home-slider .home-slider-content .slider-text h1 {
+      margin-top: 8.6rem;
+      width: 62rem; }
+      #home .home-slider .home-slider-content .slider-text h1 span {
+        font-size: 6.6rem;
+        line-height: 7.6rem; }
+      #home .home-slider .home-slider-content .slider-text h1 .we-believe {
+        width: 36rem; }
+  #home .home-slider .home-slider-content .slider-img {
+    margin: 2.2rem 2rem 7.8rem -5rem; } }
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  #home .home-slider .home-carousel {
+    margin: 15rem 3rem 0 -1rem; }
+    #home .home-slider .home-carousel .carousel-left, #home .home-slider .home-carousel .carousel-right {
+      font-size: 2.4rem;
+      padding: 2.5rem 0.5rem; }
+  #home .home-slider .home-indicators li {
+    width: 2rem;
+    height: 2rem; }
+  #home .home-slider .home-slider-content .slider-text {
+    margin-left: 2rem; }
+    #home .home-slider .home-slider-content .slider-text h1 {
+      margin-top: 6.4rem;
+      width: 38rem; }
+      #home .home-slider .home-slider-content .slider-text h1 span {
+        font-size: 4rem;
+        line-height: 5rem; }
+      #home .home-slider .home-slider-content .slider-text h1 .we-believe {
+        width: 22rem; }
+    #home .home-slider .home-slider-content .slider-text p {
+      margin-bottom: 4rem;
+      width: 26rem; }
+      #home .home-slider .home-slider-content .slider-text p span {
+        font-size: 1.8rem;
+        line-height: 2.4rem; }
+    #home .home-slider .home-slider-content .slider-text a {
+      padding: 0.6rem 2rem;
+      font-size: 1.4rem; }
+  #home .home-slider .home-slider-content .slider-img {
+    margin: 2.2rem 2rem 7.8rem -5rem; } }
+
+@media (max-width: 767px) {
+  #home {
+    text-align: center; }
+    #home .home-slider .home-carousel {
+      margin: 14rem 1.3rem 0 -1.4rem; }
+      #home .home-slider .home-carousel .carousel-left, #home .home-slider .home-carousel .carousel-right {
+        font-size: 2rem;
+        padding: 2.5rem 0.3rem; }
+    #home .home-slider .home-slider-content .slider-text {
+      margin: 0; }
+      #home .home-slider .home-slider-content .slider-text h1 {
+        margin: 2.4rem auto 2rem;
+        width: 26rem; }
+        #home .home-slider .home-slider-content .slider-text h1 span {
+          font-size: 2.6rem;
+          line-height: 3.4rem; }
+        #home .home-slider .home-slider-content .slider-text h1 .we-believe {
+          width: 16rem;
+          margin: 0 auto; }
+      #home .home-slider .home-slider-content .slider-text p {
+        margin: 0 auto 4rem;
+        width: 23.2rem; }
+        #home .home-slider .home-slider-content .slider-text p span {
+          font-size: 1.6rem;
+          line-height: 2.4rem; }
+      #home .home-slider .home-slider-content .slider-text a {
+        padding: 0.6rem 2rem;
+        font-size: 1.4rem;
+        margin: 0 auto 4rem; }
+    #home .home-slider .home-slider-content .slider-img {
+      margin: 2.2rem 0 7.8rem; } }
 
 #designs {
   padding: 9rem 0;

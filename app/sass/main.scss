@@ -30,17 +30,27 @@ body {
 		list-style: none;
 	}
 }
-/*@media (min-width: 1200px) {
-	.container {
+@media (min-width: 1400px) {
+	body>.container {
 		width: 140rem;
+		margin: 0 auto;
+		padding: 0;
 	}
-}*/
+}
+@media (max-width: 1399px) {
+	body>.container {
+		width: 100%;
+	}
+}
 
 @import "header";
 @import "header320";
 @import "header768";
 @import "header992";
 @import "home";
+@import "home1200";
+@import "home768";
+@import "home320";
 @import "designs";
 @import "portfolio";
 @import "clients";
