@@ -13,7 +13,6 @@
 	src: url(../fonts/Code-Light.svg);
 	src: url(../fonts/Code-Light.woff);
 }
-/*@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');*/
 
 body {
 	background-color: #f6f6f6;
@@ -42,37 +41,15 @@ body {
 		width: 100%;
 	}
 }
-/*@media (min-width: 768px) and (max-width: 1399px) {
-	#header {
-		height: 22vh;
-	}
-	#home {
-		height: 78vh;
-		.home-slider {
-			.home-slider-content {
-				.slider-text {
-					height: 78vh;
-				}
-				.slider-img {
-					height: 78vh;
-				}
-			}
-		}
-	}
-}*/
+
 @import "header";
 @import "header320";
 @import "header768";
 @import "header992";
-@import "home";
-@import "home1200";
-@import "home768";
-@import "home320";
-@import "designs";
-@import "designs768";
-@import "designs320";
-@import "portfolio";
-@import "clients";
+@import "portfolio-name";
+@import "portfolio-name320";
+@import "tabs";
+@import "tabs320";
 @import "footer";
 @import "footer320";
 @import "nav-footer";
