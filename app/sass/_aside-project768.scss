@@ -1,0 +1,49 @@
+@media (min-width: 768px) and (max-width: 991px) {
+  #project {
+    .aside-project {
+      .project-details, .blog-popular-posts, .blog-tags {
+        margin-bottom: 2rem;
+        padding: 2.5rem 10rem 2.5rem;
+        h2 {
+          margin: 0 0 2.4rem;
+          font-size: 1.8rem;
+        }
+      }
+      .project-details {
+        .project-details-content {
+          a {
+            font-size: 1.4rem;
+            span {
+              font-size: 1.4rem;
+              padding: 0.6rem 1rem;
+              margin-right: 1.6rem;
+              margin-bottom: 2rem;
+            }
+          }
+        }
+      }
+      .blog-popular-posts {
+        li {
+          margin-bottom: 2rem;
+          p {
+            font-size: 1.4rem;
+          }
+          span {
+            font-size: 1rem;
+          }
+        }
+      }
+      .blog-tags {
+        ul {
+          li {
+            margin: 0rem 0.1rem 1.2rem 0;
+            a {
+              font-size: 1.4rem;
+              padding: 0.4rem 0.6rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}
