@@ -5,14 +5,14 @@
     <title>Skokov</title>
     <link rel="stylesheet" href="css/libs.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
-
     <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="css/main-portfolio.css">
 
     <!-- подключение CSS файла Fancybox -->
     <link rel="stylesheet" href="fancybox/jquery.fancybox.css" type="text/css" media="screen" />
     <!-- Подключение JS файла Fancybox -->
     <script type="text/javascript" src="fancybox/jquery.fancybox.pack.js"></script>
+
+    <link rel="stylesheet" href="css/main-single-post.css">
 
 </head>
 <body>
@@ -31,48 +31,54 @@
                     </a>
                 </h1>
             </div>
-            <ul id="navbar" class="nav navbar-nav nav-skokov">
-                <li>
-                    <a href="index.html">HOME</a>
-                </li>
-                <li>
-                    <a href="portfolio.html">PORTFOLIO</a>
-                </li>
-                <li>
-                    <a href="#">BLOG</a>
-                </li>
-                <li>
-                    <a href="#">ABOUT US</a>
-                </li>
-                <li>
-                    <a href="#">CONTACT</a>
-                </li>
-            </ul>
+            <div id="navbar" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav collapse nav-skokov">
+                    <li>
+                        <a href="index.html">HOME</a>
+                    </li>
+                    <li>
+                        <a href="portfolio.html">PORTFOLIO</a>
+                    </li>
+                    <li>
+                        <a href="#">BLOG</a>
+                    </li>
+                    <li>
+                        <a href="#">ABOUT US</a>
+                    </li>
+                    <li>
+                        <a href="#">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
         </nav>
     </header>
     <section class="container portfolio-name">
-        <p>PROJECT</p>
+        <p>BLOG</p>
     </section>
-    <section id="home" class="container">
-        <div class="row">
+    <section class="container post">
+        <div class="row post-content">
             <div class="col-sm-12 col-md-8">
                 <article>
                     <img src="img/blog-img-1.png" alt="Blog image" class="img-responsive">
-                    <h1>17 Inspiring Examples of Parallax Scrolling Sites</h1>
-                    <span class="fa fa-heart">15</span>
-                    <span>by John Doe  /  4 comments  /  Oct. 12, 2013</span>
+                    <div class="post-title">
+                        <h1>17 Inspiring Examples of Parallax Scrolling Sites</h1>
+                        <div class="article-date">
+                            <span class="fa fa-heart"> 15</span>
+                            <span>by John Doe  /  4 comments  /  Oct. 12, 2013</span>
+                        </div>
+                    </div>
                     <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
                     <p>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum.</p>
                     <p>Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.</p>
-                    <img src="img/blog-img-2.png" alt="Blog image" class="img-responsive">
+                    <img src="img/blog-img-2.png" alt="Blog image" class="img-responsive post-image">
                     <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. </p>
-                    <img src="img/blog-img-3.png" alt="Blog image" class="img-responsive">
+                    <img src="img/blog-img-3.png" alt="Blog image" class="img-responsive post-image">
                     <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
                     <p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
                 </article>
-                <div>
+                <div class="share-post">
                     <h2>share this post</h2>
-                    <ul>
+                    <ul class="share-network">
                         <li>
                             <a href="#" class="fa fa-facebook"></a>
                             <span>15</span>
@@ -91,70 +97,68 @@
                         </li>
                     </ul>
                 </div>
-                <div>
+                <div class="related-posts">
                     <h2>Related posts</h2>
-                    <ul>
-                        <li>
-                            <img src="img/related-posts-img-1.png" alt="Related posts image">
+                    <ul class="row">
+                        <li class="col-sm-6 col-md-4">
+                            <img src="img/related-posts-img-1.png" alt="Related posts image" class="img-responsive">
                             <p>18 Minimalistic Home Offices to Inspire You</p>
                         </li>
-                        <li>
-                            <img src="img/related-posts-img-2.png" alt="Related posts image">
+                        <li class="col-sm-6 col-md-4">
+                            <img src="img/related-posts-img-2.png" alt="Related posts image" class="img-responsive">
                             <p>20 Resources for Beginner Designers &amp; Developers</p>
                         </li>
-                        <li>
-                            <img src="img/related-posts-img-3.png" alt="Related posts image">
+                        <li class="col-sm-6 col-md-4">
+                            <img src="img/related-posts-img-3.png" alt="Related posts image" class="img-responsive">
                             <p>Multipurpose Agency WordPress Theme</p>
                         </li>
                     </ul>
                 </div>
-                <div>
+                <div class="comments-post">
                     <h2>6 comments</h2>
-                    <ul>
+                    <ul class="comments-content">
                         <li>
-                            <article>
+                            <article class="comment-block">
                                 <img src="img/blog-comment-foto-1.png" alt="User foto">
-                                <div>
+                                <div class="comment-text">
                                     <span>Skokov   /   2 hours ago   /   reply </span>
-                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. </p>
+                                    <p class="offset-top-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. </p>
                                 </div>
                             </article>
                         </li>
                         <li>
-                            <article class="offset-blog-text">
+                            <article class="offset-left-text wernay">
                                 <span>wernay   /   3 hours ago   /   reply </span>
-                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. </p>
+                                <p class="offset-top-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. </p>
                             </article>
                         </li>
                         <li>
-                            <article class="offset-blog-text">
+                            <article class="offset-left-text no-foto">
                                 <span>mr. dev   /   9 hours ago   /   reply </span>
-                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+                                <p class="offset-top-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
                                 <p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
-                                <article class="offset-blog-text">
+                                <article class="offset-left-text wernay">
                                     <span>wernay   /   3 hours ago   /   reply </span>
-                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.</p>
-                                    <article class="offset-blog-text">
-                                        <article class="offset-blog-text">
-                                            <span>mr. dev   /   5 hours ago   /   reply </span>
-                                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. </p>
-                                        </article>
+                                    <p class="offset-top-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.</p>
+                                    <article class="offset-left-text no-foto">
+                                        <span>mr. dev   /   5 hours ago   /   reply </span>
+                                        <p class="offset-top-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. </p>
                                     </article>
                                 </article>
                             </article>
                         </li>
                         <li>
-                            <article>
+                            <article  class="comment-block">
                                 <img src="img/blog-comment-foto-2.png" alt="User foto">
-                                <div>
+                                <div class="comment-text">
                                     <span>denpro   /   2 hours ago   /   reply </span>
-                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.</p>
+                                    <p class="offset-top-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.</p>
                                 </div>
                             </article>
                         </li>
                     </ul>
                 </div>
-                <div>
+                <div class="comments-form">
                     <h2>Leave a comment</h2>
                     <form class="contact">
                         <div class="row">
@@ -165,8 +169,10 @@
                                 <input type="email" placeholder="email ..." name="Email" />
                             </div>
                         </div>
-                        <textarea col="5" placeholder="comment ..." name="Comment"></textarea>
-                        <button type="submit">Add a comment</button>
+                        <textarea rows="5" placeholder="comment ..." name="Comment"></textarea>
+                        <div class="button-right">
+                            <button type="submit">Add a comment</button>
+                        </div>
                     </form>
                 </div>
             </div>

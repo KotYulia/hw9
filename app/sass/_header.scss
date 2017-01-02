@@ -6,6 +6,8 @@
     max-height: 17rem;
     margin: 0;
     .nav-skokov {
+      display: flex;
+      justify-content: space-between;
       li {
         a {
           font: 300 1.6em 'Code', light;
