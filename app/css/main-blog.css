@@ -32,6 +32,9 @@ body {
   body > .container {
     width: 100%; } }
 
+#header .active {
+  background-color: #ffeb00; }
+
 #header .header {
   display: -webkit-box;
   display: -webkit-flex;
@@ -114,6 +117,147 @@ body {
 
 #blog {
   padding: 7.8rem 0; }
+  #blog .active {
+    background-color: #ffeb00; }
+  #blog .blog {
+    margin: 0; }
+    #blog .blog .blog-content {
+      padding: 0; }
+      #blog .blog .blog-content article {
+        margin-bottom: 3rem; }
+        #blog .blog .blog-content article img {
+          width: 100%; }
+        #blog .blog .blog-content article h2 {
+          font-size: 2.3rem;
+          color: #000000;
+          margin: 0; }
+        #blog .blog .blog-content article p {
+          font-size: 1.4rem;
+          margin: 2.5rem 0;
+          color: #5e5e5e; }
+        #blog .blog .blog-content article span {
+          font-size: 1.2rem;
+          color: #000000; }
+        #blog .blog .blog-content article div {
+          padding: 2.5rem;
+          background-color: #ffeb00;
+          position: relative; }
+          #blog .blog .blog-content article div:before {
+            content: '';
+            display: block;
+            position: absolute;
+            top: -1.7rem;
+            right: 7%;
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 0 1.7rem 1.7rem 1.7rem;
+            border-color: transparent transparent #ffeb00 transparent; }
+          #blog .blog .blog-content article div div {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: justify;
+            -webkit-justify-content: space-between;
+                -ms-flex-pack: justify;
+                    justify-content: space-between;
+            -webkit-box-align: center;
+            -webkit-align-items: center;
+                -ms-flex-align: center;
+                    align-items: center;
+            padding: 0; }
+            #blog .blog .blog-content article div div .fa {
+              color: #5e5e5e; }
+      #blog .blog .blog-content .blog-quote {
+        color: #000000;
+        background-color: #ffeb00;
+        padding: 1.2rem 4.5rem 0.6rem;
+        margin-bottom: 3rem; }
+        #blog .blog .blog-content .blog-quote blockquote {
+          font: 400 2.1rem 'Century Gothic', Regular;
+          border: none;
+          margin: 0;
+          padding: 0; }
+        #blog .blog .blog-content .blog-quote address {
+          font: 400 1.1rem 'Century Gothic', Regular;
+          text-align: end;
+          margin: 0; }
+  #blog .blog-pages {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 4rem auto 7rem; }
+    #blog .blog-pages a {
+      color: #414146;
+      font-size: 2rem;
+      font-weight: 700;
+      padding: 1.5rem;
+      text-decoration: none; }
+      #blog .blog-pages a:hover {
+        padding: 1.5rem;
+        background-color: #ffeb00; }
+    #blog .blog-pages .number-pages {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      margin: 0;
+      padding: 0; }
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  #blog {
+    padding: 4rem 0 0; } }
+
+@media (min-width: 768px) and (max-width: 991px) {
+  #blog {
+    padding: 4rem 0; }
+    #blog .blog-pages {
+      margin: 4rem auto; } }
+
+@media (max-width: 767px) {
+  #blog {
+    padding: 2rem 0; }
+    #blog .blog .blog-content article {
+      margin-bottom: 1.5rem; }
+      #blog .blog .blog-content article h2 {
+        font-size: 1.8rem; }
+      #blog .blog .blog-content article p {
+        font-size: 1.2rem;
+        margin: 1.5rem 0; }
+      #blog .blog .blog-content article span {
+        font-size: 1rem; }
+      #blog .blog .blog-content article div {
+        padding: 1.5rem; }
+        #blog .blog .blog-content article div:before {
+          top: -1rem;
+          border-width: 0 1rem 1rem 1rem; }
+    #blog .blog .blog-content .blog-quote {
+      padding: 1rem 2.5rem 0.6rem;
+      margin-bottom: 1.5rem; }
+      #blog .blog .blog-content .blog-quote blockquote {
+        font: 400 1.8rem 'Century Gothic', Regular; }
+      #blog .blog .blog-content .blog-quote address {
+        font: 400 1rem 'Century Gothic', Regular; }
+    #blog .blog-pages {
+      margin: 1rem 0 3rem; }
+      #blog .blog-pages ul {
+        margin: 0;
+        padding: 0; }
+      #blog .blog-pages a {
+        font-size: 1rem;
+        padding: 1rem; }
+        #blog .blog-pages a:hover {
+          padding: 1rem; } }
 
 .blog-aside ul {
   padding: 0; }
@@ -212,10 +356,35 @@ body {
     background-color: #ffeb00;
     padding: 0.6rem 1rem; }
 
-@media (min-width: 768px) and (max-width: 1199px) {
+@media (min-width: 992px) and (max-width: 1199px) {
   .blog-aside .blog-categories, .blog-aside .blog-archive, .blog-aside .blog-popular-posts, .blog-aside .blog-tags {
     margin: 1rem auto;
     padding: 2.5rem 1rem 2.5rem; }
+    .blog-aside .blog-categories h2, .blog-aside .blog-archive h2, .blog-aside .blog-popular-posts h2, .blog-aside .blog-tags h2 {
+      margin: 0 0 2.4rem;
+      font-size: 1.8rem; }
+    .blog-aside .blog-categories .categories-content a, .blog-aside .blog-categories .archive-content a, .blog-aside .blog-archive .categories-content a, .blog-aside .blog-archive .archive-content a, .blog-aside .blog-popular-posts .categories-content a, .blog-aside .blog-popular-posts .archive-content a, .blog-aside .blog-tags .categories-content a, .blog-aside .blog-tags .archive-content a {
+      font-size: 1.4rem; }
+      .blog-aside .blog-categories .categories-content a span, .blog-aside .blog-categories .archive-content a span, .blog-aside .blog-archive .categories-content a span, .blog-aside .blog-archive .archive-content a span, .blog-aside .blog-popular-posts .categories-content a span, .blog-aside .blog-popular-posts .archive-content a span, .blog-aside .blog-tags .categories-content a span, .blog-aside .blog-tags .archive-content a span {
+        font-size: 1.4rem;
+        width: 2rem;
+        padding: 0.3rem 0; }
+  .blog-aside .blog-popular-posts li {
+    margin-bottom: 2rem; }
+    .blog-aside .blog-popular-posts li p {
+      font-size: 1.4rem; }
+    .blog-aside .blog-popular-posts li span {
+      font-size: 1rem; }
+  .blog-aside .blog-tags ul li {
+    margin: 0rem 0.1rem 1.2rem 0; }
+    .blog-aside .blog-tags ul li a {
+      font-size: 1.4rem;
+      padding: 0.4rem 0.6rem; } }
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .blog-aside .blog-categories, .blog-aside .blog-archive, .blog-aside .blog-popular-posts, .blog-aside .blog-tags {
+    margin: 1rem auto;
+    padding: 2.5rem 10rem 2.5rem; }
     .blog-aside .blog-categories h2, .blog-aside .blog-archive h2, .blog-aside .blog-popular-posts h2, .blog-aside .blog-tags h2 {
       margin: 0 0 2.4rem;
       font-size: 1.8rem; }

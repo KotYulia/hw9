@@ -34,6 +34,9 @@ body {
   body > .container {
     width: 100%; } }
 
+#header .active {
+  background-color: #ffeb00; }
+
 #header .header {
   display: -webkit-box;
   display: -webkit-flex;

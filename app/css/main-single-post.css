@@ -32,6 +32,9 @@ body {
   body > .container {
     width: 100%; } }
 
+#header .active {
+  background-color: #ffeb00; }
+
 #header .header {
   display: -webkit-box;
   display: -webkit-flex;
@@ -513,10 +516,35 @@ body {
     background-color: #ffeb00;
     padding: 0.6rem 1rem; }
 
-@media (min-width: 768px) and (max-width: 1199px) {
+@media (min-width: 992px) and (max-width: 1199px) {
   .blog-aside .blog-categories, .blog-aside .blog-archive, .blog-aside .blog-popular-posts, .blog-aside .blog-tags {
     margin: 1rem auto;
     padding: 2.5rem 1rem 2.5rem; }
+    .blog-aside .blog-categories h2, .blog-aside .blog-archive h2, .blog-aside .blog-popular-posts h2, .blog-aside .blog-tags h2 {
+      margin: 0 0 2.4rem;
+      font-size: 1.8rem; }
+    .blog-aside .blog-categories .categories-content a, .blog-aside .blog-categories .archive-content a, .blog-aside .blog-archive .categories-content a, .blog-aside .blog-archive .archive-content a, .blog-aside .blog-popular-posts .categories-content a, .blog-aside .blog-popular-posts .archive-content a, .blog-aside .blog-tags .categories-content a, .blog-aside .blog-tags .archive-content a {
+      font-size: 1.4rem; }
+      .blog-aside .blog-categories .categories-content a span, .blog-aside .blog-categories .archive-content a span, .blog-aside .blog-archive .categories-content a span, .blog-aside .blog-archive .archive-content a span, .blog-aside .blog-popular-posts .categories-content a span, .blog-aside .blog-popular-posts .archive-content a span, .blog-aside .blog-tags .categories-content a span, .blog-aside .blog-tags .archive-content a span {
+        font-size: 1.4rem;
+        width: 2rem;
+        padding: 0.3rem 0; }
+  .blog-aside .blog-popular-posts li {
+    margin-bottom: 2rem; }
+    .blog-aside .blog-popular-posts li p {
+      font-size: 1.4rem; }
+    .blog-aside .blog-popular-posts li span {
+      font-size: 1rem; }
+  .blog-aside .blog-tags ul li {
+    margin: 0rem 0.1rem 1.2rem 0; }
+    .blog-aside .blog-tags ul li a {
+      font-size: 1.4rem;
+      padding: 0.4rem 0.6rem; } }
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .blog-aside .blog-categories, .blog-aside .blog-archive, .blog-aside .blog-popular-posts, .blog-aside .blog-tags {
+    margin: 1rem auto;
+    padding: 2.5rem 10rem 2.5rem; }
     .blog-aside .blog-categories h2, .blog-aside .blog-archive h2, .blog-aside .blog-popular-posts h2, .blog-aside .blog-tags h2 {
       margin: 0 0 2.4rem;
       font-size: 1.8rem; }
