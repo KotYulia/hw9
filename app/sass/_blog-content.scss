@@ -1,0 +1,96 @@
+#blog {
+  .active {
+    background-color: #ffeb00;
+  }
+  padding: 7.8rem 0;
+  .blog {
+    margin: 0;
+    .blog-content {
+      padding: 0;
+      article {
+        margin-bottom: 3rem;
+        img {
+          width: 100%;
+        }
+        h2 {
+          font-size: 2.3rem;
+          color: #000000;
+          margin: 0;
+        }
+        p {
+          font-size: 1.4rem;
+          margin: 2.5rem 0;
+          color: #5e5e5e;
+        }
+        span {
+          font-size: 1.2rem;
+          color: #000000;
+        }
+        div {
+          padding: 2.5rem;
+          background-color: #ffeb00;
+          position: relative;
+          &:before {
+            content: '';
+            display: block;
+            position: absolute;
+            top: -1.7rem;
+            right: 7%;
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 0 1.7rem 1.7rem 1.7rem;
+            border-color: transparent transparent #ffeb00 transparent;
+          }
+          div {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0;
+            .fa {
+              color: #5e5e5e;            }
+          }
+        }
+      }
+      .blog-quote {
+        color: #000000;
+        background-color: #ffeb00;
+        padding: 1.2rem 4.5rem 0.6rem;
+        margin-bottom: 3rem;
+        blockquote {
+          font: 400 2.1rem 'Century Gothic', Regular;
+          border: none;
+          margin: 0;
+          padding: 0;
+        }
+        address {
+          font: 400 1.1rem 'Century Gothic', Regular;
+          text-align: end;
+          margin: 0;
+        }
+      }
+    }
+  }
+  .blog-pages {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 4rem auto 7rem;
+    a {
+      color: #414146;
+      font-size: 2rem;
+      font-weight: 700;
+      padding: 1.5rem;
+      text-decoration: none;
+      &:hover {
+        padding: 1.5rem;
+        background-color: #ffeb00;
+      }
+    }
+    .number-pages {
+      display: flex;
+      margin: 0;
+      padding: 0;
+    }
+  }
+}

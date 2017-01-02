@@ -1,0 +1,129 @@
+@media (max-width: 767px) {
+  .post {
+    padding: 2rem 0.5rem 3rem;
+    .post-content {
+      p {
+        margin: 0 1.5rem 0 1rem;
+        font-size: 1.3rem;
+        text-align: justify;
+      }
+      .post-image {
+        padding: 1rem 2rem;
+      }
+      .post-title {
+        &:before {
+          top: -1rem;
+          border-width: 0 1rem 1rem 1rem;
+        }
+        h1 {
+          font-size: 2rem;
+          padding: 1rem;
+        }
+        .article-date {
+          font-size: 1rem;
+          padding: 0 1rem 0.4rem 0;
+          margin-bottom: 2.5rem;
+          span {
+            margin-left: 1rem;
+          }
+        }
+      }
+      .share-post, .related-posts, .comments-post, .comments-form {
+        padding: 2rem 0;
+        margin: 0 0.5rem 0 0.5rem;
+        h2 {
+          font-size: 1.4rem;
+        }
+      }
+      .share-post {
+        display: block;
+        h2 {
+          padding: 0.4rem 1rem;
+          display: inline-block;
+          margin-bottom: 1.5rem;
+
+        }
+        .share-network {
+          li {
+            margin-left: 1rem;
+            a {
+
+              width: 2rem;
+              height: 2rem;
+              font-size: 1.2rem;
+            }
+            span {
+              font-size: 1.2rem;
+              width: 3rem;
+              height: 2rem;
+            }
+          }
+        }
+      }
+      .related-posts {
+        h2 {
+          padding: 0.4rem 1.4rem;
+          margin-bottom: 1.8rem;
+        }
+        ul {
+          li {
+            margin-bottom: 2rem;
+          }
+        }
+      }
+      .comments-post {
+        h2 {
+          padding: 0.4rem 1.6rem;
+          margin-bottom: 2rem;
+        }
+        span {
+          font-size: 1.3rem;
+        }
+        p {
+          font-size: 1.2rem;
+
+        }
+        article>.no-foto, article>.wernay {
+          margin-top: 2rem;
+        }
+        .offset-top-text {
+          margin-top: 1rem;
+        }
+        .offset-left-text>.offset-left-text {
+          margin-left: 2rem;
+        }
+        .wernay {
+          margin-bottom: 2rem;
+          margin-top: 2rem;
+        }
+      }
+      .comments-form {
+        h2 {
+          padding: 0.4rem 0.2rem;
+          margin-bottom: 2rem;
+        }
+        textarea, input {
+          margin: 1rem auto;
+        }
+        input, textarea {
+          padding: 1rem;
+          &::-webkit-input-placeholder {
+            font-size: 1.2rem;
+          }
+          &::-moz-placeholder {
+            font-size: 1.2rem;
+          }
+          &:-ms-input-placeholder {
+            font-size: 1.2rem;
+          }
+        }
+        .button-right {
+          button {
+            font-size: 1.2rem;
+            padding: 1rem;
+          }
+        }
+      }
+    }
+  }
+}

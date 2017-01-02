@@ -4,12 +4,11 @@
     background: transparent;
     .home-carousel{
       width: 0;
-      margin-top: 23rem;
-      margin-right: 7rem;
+      margin: 23rem 4rem 0 0;
       opacity: 1;
       .carousel-left, .carousel-right {
         font-size: 3rem;
-        padding: 3.5rem 2rem ;
+        padding: 3.5rem 0.5rem;
         background-color: #000;
       }
     }
@@ -22,15 +21,12 @@
         width: 2.6rem;
         height: 2.6rem;
         border-radius: 0;
-       background-color: #3f3f44;
+        background-color: #3f3f44;
       }
     }
     .home-slider-content {
-      display: flex;
-      justify-content: center;
       .slider-text {
-        width: 55rem;
-        float: left;
+        margin-left: 5rem;
         h1 {
           margin-top: 12rem;
           width: 64rem;
@@ -67,18 +63,11 @@
         }
       }
       .slider-img {
-        width: 72.4rem;
-        float: left;
-        margin: 2.2rem 0 8rem -6rem;
+        margin: 2.2rem 7rem 7.8rem -12rem;
         img {
-          display: inline-block;
-          float: left;
-        }
-        .foto-man {
-          margin-left: 18rem;
+          padding: 0;
         }
       }
     }
   }
 }
-

@@ -1,18 +1,25 @@
 #header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 0.5em 9em;
-  max-height: 17rem;
-  .nav-skokov {
-    li {
-      a {
-        font: 300 1.6em 'Code', light;
-        color: #000000;
-        padding: 3rem 1rem;
-        margin-left: 6rem;
-        &:hover {
-          background-color: #ffeb00;
+  .active {
+    background-color: #ffeb00;
+  }
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-height: 17rem;
+    margin: 0;
+    .nav-skokov {
+      display: flex;
+      justify-content: space-between;
+      li {
+        a {
+          font: 300 1.6em 'Code', light;
+          color: #000000;
+          padding: 3rem 1rem;
+          margin-left: 6rem;
+          &:hover {
+            background-color: #ffeb00;
+          }
         }
       }
     }

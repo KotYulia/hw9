@@ -1,0 +1,70 @@
+.tabs {
+  text-align: center;
+  color: #424147;
+  h1 {
+    font: 400 3.5rem 'Century Gothic', Regular;
+    margin: 8rem auto 2.6rem;
+  }
+  p {
+    font: 400 2.4rem 'Century Gothic', Regular;
+  }
+  .portfolio-navigation {
+    margin-top: 8rem;
+    .inline-block {
+      display: inline-block;
+      border-bottom: none;
+      .active {
+        a {
+          background-color: #ffeb00;
+        }
+      }
+      li {
+
+        a {
+          font: 400 2.4rem 'Century Gothic', Regular;
+          color: #424147;
+          &:hover {
+            background-color: #ffeb00;
+          }
+        }
+      }
+    }
+  }
+  .example {
+    padding-top: 5rem;
+    li {
+      margin-bottom: 5rem;
+
+      img {
+        display: block;
+        width: 100%;
+        height: auto;
+        position: relative;
+      }
+      .img-hover {
+        display: none;
+        position: absolute;
+        top: 0;
+        right: 14px;
+        left: 14px;
+        bottom: 0;
+        background-color: #ffea00;
+        opacity: 0.5;
+        text-align: center;
+        a {
+          text-decoration: none;
+          font-size: 4rem;
+          color: #ffffff;
+          padding: 5rem;
+          background-color: #424146;
+          opacity: 0.9;
+          margin-top: 15%;
+        }
+
+      }
+      &:hover .img-hover {
+        display: block;
+      }
+    }
+  }
+}
