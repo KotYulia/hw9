@@ -9,13 +9,12 @@
           width: 30rem;
           margin: 0 auto;
           li {
-            padding: 0.6rem;
+            padding: 0.4rem;
           }
         }
       }
       .connecting {
         .tweets {
-          width: 30rem;
           margin: 0 auto;
           li {
             div {
@@ -28,14 +27,19 @@
           justify-content: center;
         }
       }
-
-
       .contact {
         .address {
           margin-top: 2rem;
           ul {
-            width: 30rem;
             margin: 0 auto;
+            li {
+              a {
+                font-size: 1.2rem;
+              }
+              .contact-address, .contact-phone, .contact-email {
+                text-align: left;
+              }
+            }
           }
         }
       }
