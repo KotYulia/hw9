@@ -1,0 +1,66 @@
+@media (max-width: 767px) {
+  .about-us-content {
+    margin: 4rem auto;
+    img {
+      margin-bottom: 2rem;
+    }
+    .about-us-info {
+      margin-bottom: 4rem;
+      h2 {
+        font-size: 2.4rem;
+      }
+      .bold-text {
+        font-size: 1.3rem;
+        line-height: 1.8rem;
+        margin: 2rem 0;
+      }
+      .about-us-text {
+        p {
+          font-size: 1.3rem;
+          line-height: 2rem;
+        }
+      }
+    }
+    h2 {
+      font-size: 1.8rem;
+      margin: 0 auto 2rem;
+    }
+    p {
+      line-height: 1.8rem;
+      font-size: 1.4rem;
+      margin: 0 auto 2rem;
+    }
+    .our-skills-info {
+      .skills-list-right {
+        margin-bottom: 4rem;
+      }
+      .skills-list-left, .skills-list-right {
+        li {
+          span {
+            font-size: 1.5rem;
+            padding: 1.2rem;
+          }
+          .percent-value {
+            width: 10%;
+          }
+        }
+      }
+    }
+    .team-content {
+      li {
+        .name-member {
+          font-size: 1.4rem;
+          margin-bottom: 3rem;
+        }
+      }
+      .cv-link {
+        a {
+          font-size: 1.4rem;
+        }
+        &:before {
+          display: block;
+        }
+      }
+    }
+  }
+}

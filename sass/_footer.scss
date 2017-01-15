@@ -1,0 +1,145 @@
+#footer {
+  background-color: #3f3f44;
+  color: #ffffff;
+  padding: 3rem 0 0;
+  .yellow {
+    color: #ffeb00;
+  }
+  h3 {
+    font: 400 1.8rem 'Century Gothic', Regular;
+  }
+  p, span {
+    font-size: 1.3rem;
+  }
+  a {
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: #ffffff;
+  }
+  .about {
+    p {
+      margin-bottom: 3rem;
+    }
+    .learn {
+      font-size: 1.5rem;
+      border-bottom: 3px solid #ffeb00;
+      padding: 1.2rem 1.8rem;
+      background-color: #000000;
+    }
+    .stream {
+      margin-top: 4rem;
+    }
+    ul {
+      padding: 0;
+      li {
+        display: inline-block;
+        float: left;
+        padding-left: 0;
+        img {
+          margin: 1rem 0 0;
+        }
+      }
+    }
+  }
+  .connecting {
+    padding-bottom: 3rem;
+    .tweets {
+      padding-left: 0;
+      li {
+        display: flex;
+        .fa-twitter {
+          font-size: 2rem;
+          float: left;
+          margin-right: 1rem;
+        }
+        div {
+          .small, a {
+            display: block;
+          }
+          .small {
+            font-size: 0.8rem;
+            margin: 0.8rem 0 1.5rem;
+          }
+        }
+      }
+    }
+    .social {
+
+      h3 {
+        display: block;
+      }
+      padding-left: 0;
+      .soc-connect {
+        display: inline-block;
+        float: left;
+        margin-right: 2rem;
+      }
+      li {
+        display: inline-block;
+        float: left;
+        font-size: 2rem;
+        text-align: center;
+        width: 3rem;
+        height: 3rem;
+        background-color: #000000;
+        margin-right: 1px;
+      }
+    }
+  }
+  .contact {
+    .address {
+      margin-top: 4rem;
+      ul {
+        padding: 0;
+        li {
+          display: flex;
+          margin-bottom: 2rem;
+          .fa {
+            text-align: center;
+            width: 3rem;
+            height: 3rem;
+            background-color: #000000;
+            margin-right: 1.6rem;
+            padding-top: 1rem;
+          }
+          .contact-address, .contact-phone {
+            margin-top: 1rem;
+            span {
+              display: block;
+            }
+          }
+          .fa-envelope {
+            padding-top: 0.7rem;
+          }
+          .contact-email {
+            margin-top: 0.7rem;
+          }
+        }
+      }
+    }
+    #mc-form {
+      margin-bottom: 5rem;
+      position: relative;
+      .mc-email {
+        border: none;
+        background: none;
+        border-bottom: 1px solid #ffeb00;
+        color: #ffffff;
+        font-size: 1.7rem;
+        }
+      .mc-button {
+        background-color: #000000;
+        border: none;
+        width: 2.8rem;
+        height: 2.8rem;
+      }
+      .fa-envelope-o {
+        position: absolute;
+        bottom: 1.4rem;
+        font-size: 1.6rem;
+        margin-left: -2.2rem;
+      }
+    }
+  }
+
+}

@@ -1,0 +1,36 @@
+@media (max-width: 767px) {
+  .tabs {
+    h1 {
+      font-size: 2.5rem;
+      margin: 4rem auto 1.6rem;
+    }
+    p {
+      font-size: 1.6rem;
+    }
+    .portfolio-navigation {
+      margin-top: 4rem;
+      .inline-block {
+        li {
+          a {
+            font-size: 1.4rem;
+          }
+        }
+      }
+    }
+    .example {
+      padding-top: 2rem;
+      padding-left: 0;
+      li {
+        margin-bottom: 2rem;
+        .img-hover {
+          a {
+            font-size: 2rem;
+            padding: 2rem;
+            margin-top: 20%;
+          }
+        }
+      }
+    }
+  }
+}
+

@@ -1,0 +1,43 @@
+.error-info {
+  padding: 17rem 0 22rem;
+  text-align: center;
+  a, .or {
+    font: 400 1.5rem 'Century Gothic', Regular;
+    padding: 1rem 1.5rem;
+  }
+  a {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #000000;
+  }
+  .or {
+    background-color: #ffeb00;
+    margin: auto 2rem;
+  }
+  .error-number {
+    font: 400 20rem 'Century Gothic', Regular;
+    color: #414146;
+    line-height: 16rem;
+  }
+  div {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    margin-bottom: 5rem;
+    .error-text {
+      font: 400 9rem 'Century Gothic', Regular;
+      height: 9rem;
+      color: #ffea00;
+      width: 76rem;
+      background-color: #3f3f44;
+      display: flex;
+      align-items: flex-end;
+    }
+    .attention {
+      font: 400 12.4rem 'Century Gothic', Regular;
+      color: #ffea00;
+      margin-left: -4rem;
+    }
+  }
+
+}

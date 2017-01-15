@@ -1,0 +1,73 @@
+#home {
+  background: url("../img/slider-bg.png") center/cover no-repeat;
+  .home-slider {
+    background: transparent;
+    .home-carousel{
+      width: 0;
+      margin: 23rem 4rem 0 0;
+      opacity: 1;
+      .carousel-left, .carousel-right {
+        font-size: 3rem;
+        padding: 3.5rem 0.5rem;
+        background-color: #000;
+      }
+    }
+    .home-indicators {
+      .active {
+        background-color: #ffeb00;
+        border: 2px solid #3f3f44;
+      }
+      li {
+        width: 2.6rem;
+        height: 2.6rem;
+        border-radius: 0;
+        background-color: #3f3f44;
+      }
+    }
+    .home-slider-content {
+      .slider-text {
+        margin-left: 5rem;
+        h1 {
+          margin-top: 12rem;
+          width: 64rem;
+          span {
+            display: block;
+            font-size: 7rem;
+            line-height: 8rem;
+            color: #000000;
+            background-color: #ffeb00;
+            margin-top: 0.8rem;
+          }
+          .we-believe {
+            width: 39rem;
+          }
+        }
+        p {
+          margin-bottom: 7rem;
+          width: 36rem;
+          span {
+            font-size: 2.4rem;
+            line-height: 3.3rem;
+            background-color: #3f3f44;
+            color: #ffffff;
+          }
+        }
+        a {
+          padding: 1rem 3rem;
+          font-size: 2.4rem;
+          background-color: #000000;
+          color: #ffffff;
+          text-decoration: none;
+          margin-left: 40%;
+          border-bottom: 3px solid #ffeb00;
+        }
+      }
+      .slider-img {
+        margin: 2.2rem 7rem 7.8rem -12rem;
+        img {
+          padding: 0;
+        }
+      }
+    }
+  }
+}

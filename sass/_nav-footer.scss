@@ -1,0 +1,29 @@
+#footer {
+  .nav-footer {
+    background-color: #000000;
+    padding: 1rem 0;
+    margin-bottom: 1.5rem;
+    .nav-footer-menu {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      p {
+        font: 400 1.4rem 'Century Gothic', Regular;
+        color: #ffffff;
+      }
+      .nav-skokov-footer {
+        li {
+          a {
+            font: 300 1.6em 'Code', light;
+            color: #ffffff;
+            padding: 2rem 1rem;
+            margin-left: 1.4rem;
+            &:hover {
+              background-color: #3f3f44;
+            }
+          }
+        }
+      }
+    }
+  }
+}

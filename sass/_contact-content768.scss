@@ -1,0 +1,45 @@
+@media (min-width: 992px) and (max-width: 1045px) {
+  .contact {
+    .address-info {
+      padding-left: 0;
+    }
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .contact {
+    #map {
+      margin: 4rem 0;
+    }
+    .address-info {
+      ul {
+        margin-bottom: 4rem;
+      }
+    }
+    .contact-content {
+      .contact-form {
+        textarea {
+          margin-bottom: 4rem;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 767px) {
+  .contact {
+    #map {
+      margin: 4rem 0;
+    }
+    .address-info {
+      ul {
+        margin-bottom: 4rem;
+      }
+    }
+    .contact-content {
+      .contact-form {
+        textarea {
+          margin-bottom: 4rem;
+        }
+      }
+    }
+  }
+}

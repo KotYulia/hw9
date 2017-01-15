@@ -1,0 +1,47 @@
+@media (max-width: 767px) {
+  #footer {
+    padding: 0;
+    text-align: center;
+    .row {
+      .about {
+        ul {
+          width: 30rem;
+          margin: 0 auto;
+          li {
+            padding: 0.4rem;
+          }
+        }
+      }
+      .connecting {
+        .tweets {
+          margin: 0 auto;
+          li {
+            div {
+              text-align: left;
+            }
+          }
+        }
+        .social {
+          display: flex;
+          justify-content: center;
+        }
+      }
+      .contact {
+        .address {
+          margin-top: 2rem;
+          ul {
+            margin: 0 auto;
+            li {
+              a {
+                font-size: 1.2rem;
+              }
+              .contact-address, .contact-phone, .contact-email {
+                text-align: left;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

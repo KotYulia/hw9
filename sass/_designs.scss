@@ -1,0 +1,106 @@
+#designs {
+  padding: 9rem 0;
+  text-align: center;
+  color: #424147;
+  h1 {
+    font-size: 3.5rem;
+    margin-bottom: 2.7rem;
+  }
+  p{
+    font-size: 2.4rem;
+    margin-bottom: 6rem;
+  }
+  .design {
+    margin: 0 5rem;
+    li {
+      &:hover .hover {
+        display: block;
+      }
+      h2 {
+        font-size: 2rem;
+        color: #000000;
+        background-color: #ffeb00;
+        margin-bottom: 0;
+        padding: 17rem 0 1rem;
+      }
+      p {
+        font-size: 1.3rem;
+        line-height: 1.7rem;
+        color: #ffffff;
+        background-color: #3f3f44;
+        margin-bottom: 0;
+        padding: 3.3rem;
+      }
+      .hover {
+        display: none;
+        position: absolute;
+        top: 2rem;
+        right: 0.5rem;
+        left: 1.5rem;
+        bottom: 10rem;
+        p {
+          font: 300 2rem 'Code', Light;
+          text-align: left;
+          padding: 1rem;
+          width: 97%;
+
+          span {
+            display: block;
+            font: 300 2rem 'Code', Light;
+          }
+        }
+        img {
+          width: 97%;
+          height: 100%;
+        }
+        .remark {
+          font-size: 1rem;
+          color: #ffffff;
+          text-align: right;
+          height: 19%;
+          .yellow {
+            display: inline-block;
+            font-size: 1rem;
+            color: #ffea00;
+          }
+        }
+      }
+      .web-design {
+        &:before {
+          content: '';
+          position: absolute;
+          width: 11rem;
+          height: 8.8rem;
+          top: 20%;
+          left: 50%;
+          transform: translateX(-50%);
+          background: url("../img/web-design.png") no-repeat;
+        }
+      }
+      .web-development {
+        &:before {
+          content: '';
+          position: absolute;
+          width: 11rem;
+          height: 8.8rem;
+          top: 20%;
+          left: 50%;
+          transform: translateX(-50%);
+          background: url("../img/web-development.png") no-repeat;
+        }
+      }
+      .graphic-design {
+        &:before {
+          content: '';
+          position: absolute;
+          width: 8.8rem;
+          height: 11rem;
+          top: 15%;
+          left: 50%;
+          transform: translateX(-50%);
+          background: url("../img/graphic-design.png") no-repeat;
+        }
+      }
+    }
+  }
+}
