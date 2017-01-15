@@ -1,0 +1,480 @@
+@font-face {
+  font-family: "Century Gothic";
+  src: url(../fonts/CenturyGothic.ttf);
+  src: url(../fonts/CenturyGothic.eot);
+  src: url(../fonts/CenturyGothic.svg);
+  src: url(../fonts/CenturyGothic.woff); }
+
+@font-face {
+  font-family: "Code";
+  src: url(../fonts/Code-Light.ttf);
+  src: url(../fonts/Code-Light.otf);
+  src: url(../fonts/Code-Light.eot);
+  src: url(../fonts/Code-Light.svg);
+  src: url(../fonts/Code-Light.woff); }
+
+body {
+  background-color: #f6f6f6; }
+  body h1, body h2, body p, body span, body a {
+    font: 400 10px 'Century Gothic', Regular; }
+  body h1, body h2 {
+    text-transform: uppercase; }
+  body ul {
+    list-style: none; }
+
+@media (min-width: 1400px) {
+  body > .container {
+    width: 138rem;
+    margin: 0 auto;
+    padding: 0; } }
+
+@media (max-width: 1399px) {
+  body > .container {
+    width: 100%; } }
+
+#header .active {
+  background-color: #ffeb00; }
+
+#header .header {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0; }
+  #header .header .nav-skokov {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+    #header .header .nav-skokov li a {
+      font: 300 1.6em 'Code', light;
+      color: #000000;
+      padding: 3rem 1rem;
+      margin-left: 6rem; }
+      #header .header .nav-skokov li a:hover {
+        background-color: #ffeb00; }
+
+@media (max-width: 767px) {
+  #header .header {
+    display: block;
+    margin: 0 auto; }
+    #header .header .navbar-header .button-skokov {
+      border-color: #000000;
+      margin-top: 4em; }
+      #header .header .navbar-header .button-skokov span {
+        background-color: #000000; }
+      #header .header .navbar-header .button-skokov:hover {
+        background-color: #ffeb00; }
+    #header .header .nav-skokov {
+      position: absolute;
+      width: 100%;
+      right: 0;
+      z-index: 1;
+      text-align: center;
+      background-color: #f6f6f6;
+      border: 1px solid #000000;
+      margin: 0;
+      display: block; }
+      #header .header .nav-skokov li a {
+        padding: 0.5em;
+        margin: 0; } }
+
+@media (min-width: 768px) and (max-width: 991px) {
+  #header .header .nav-skokov li a {
+    margin-left: 1rem; } }
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  #header .header .nav-skokov li a {
+    margin-left: 2rem; } }
+
+.portfolio-name {
+  background: url("../img/bg-portfolio.png") center/cover no-repeat; }
+  .portfolio-name p {
+    display: inline-block;
+    font: 400 3.5rem 'Century Gothic', Regular;
+    color: #ffea00;
+    padding: 2.2rem 10.5rem 2.2rem 2.2rem;
+    margin: 4rem 0;
+    background-color: #403f44; }
+
+@media (max-width: 767px) {
+  .portfolio-name p {
+    font-size: 2.5rem;
+    padding-right: 6rem; } }
+
+.about-us-content {
+  margin: 6rem auto 8.4rem;
+  text-align: center; }
+  .about-us-content img {
+    margin-bottom: 3rem; }
+  .about-us-content .about-us-info {
+    color: #424146;
+    margin-bottom: 9rem;
+    text-align: start; }
+    .about-us-content .about-us-info h2 {
+      font-size: 3rem;
+      text-transform: uppercase;
+      margin: 0; }
+    .about-us-content .about-us-info .bold-text {
+      font-weight: 700;
+      font-size: 1.5rem;
+      line-height: 2.1rem;
+      margin: 3rem 0; }
+    .about-us-content .about-us-info .about-us-text p {
+      font-size: 1.5rem;
+      line-height: 2.4rem;
+      margin: 0 auto; }
+  .about-us-content h2 {
+    font-size: 1.8rem;
+    margin: 0 auto 3.8rem;
+    padding: 0.8rem 3.2rem;
+    text-transform: uppercase;
+    background-color: #403f46;
+    color: #ffea00;
+    display: inline-block; }
+  .about-us-content p {
+    line-height: 2.1rem;
+    font-size: 1.6rem;
+    color: #424146;
+    margin: 0 auto 4rem;
+    max-width: 96rem; }
+  .about-us-content .our-skills-info {
+    padding-left: 0;
+    margin-bottom: 0; }
+    .about-us-content .our-skills-info .skills-list-left {
+      margin-bottom: 2rem; }
+    .about-us-content .our-skills-info .skills-list-right {
+      margin-bottom: 9rem; }
+    .about-us-content .our-skills-info .skills-list-left, .about-us-content .our-skills-info .skills-list-right {
+      padding-left: 0;
+      text-align: left; }
+      .about-us-content .our-skills-info .skills-list-left li, .about-us-content .our-skills-info .skills-list-right li {
+        margin-bottom: 2rem;
+        background-color: #403f46; }
+        .about-us-content .our-skills-info .skills-list-left li span, .about-us-content .our-skills-info .skills-list-right li span {
+          display: inline-block;
+          font-size: 1.7rem;
+          text-transform: uppercase;
+          padding: 1.2rem;
+          color: #424146;
+          background-color: #ffeb00; }
+        .about-us-content .our-skills-info .skills-list-left li .percent-value, .about-us-content .our-skills-info .skills-list-right li .percent-value {
+          text-align: center;
+          padding: 1.2rem 0;
+          margin-right: -0.4rem;
+          width: 10%;
+          color: #ffea00;
+          background-color: #000000; }
+        .about-us-content .our-skills-info .skills-list-left li .photoshop-skill, .about-us-content .our-skills-info .skills-list-right li .photoshop-skill {
+          width: 80%; }
+        .about-us-content .our-skills-info .skills-list-left li .html-skill, .about-us-content .our-skills-info .skills-list-right li .html-skill {
+          width: 77%; }
+        .about-us-content .our-skills-info .skills-list-left li .wordpress-skill, .about-us-content .our-skills-info .skills-list-right li .wordpress-skill {
+          width: 60%; }
+        .about-us-content .our-skills-info .skills-list-left li .javascript-skill, .about-us-content .our-skills-info .skills-list-right li .javascript-skill {
+          width: 65%; }
+        .about-us-content .our-skills-info .skills-list-left li .illustrator-skill, .about-us-content .our-skills-info .skills-list-right li .illustrator-skill {
+          width: 70%; }
+        .about-us-content .our-skills-info .skills-list-left li .php-skill, .about-us-content .our-skills-info .skills-list-right li .php-skill {
+          width: 66%; }
+        .about-us-content .our-skills-info .skills-list-left li .joomla-skill, .about-us-content .our-skills-info .skills-list-right li .joomla-skill {
+          width: 55%; }
+        .about-us-content .our-skills-info .skills-list-left li .mysql-skill, .about-us-content .our-skills-info .skills-list-right li .mysql-skill {
+          width: 75%; }
+  .about-us-content .team-content {
+    padding-left: 0; }
+    .about-us-content .team-content li {
+      text-align: center; }
+      .about-us-content .team-content li img {
+        margin: 0 auto 1.4rem;
+        -webkit-border-radius: 50%;
+                border-radius: 50%;
+        border: 2px solid #ffea00; }
+      .about-us-content .team-content li .name-member {
+        display: inline-block;
+        font-size: 1.6rem;
+        width: 19rem;
+        color: #ffea00;
+        background-color: #424147;
+        text-transform: uppercase;
+        margin-bottom: 5rem; }
+    .about-us-content .team-content .cv-link a {
+      display: inline-block;
+      font-size: 1.6rem;
+      width: 19rem;
+      color: #ffea00;
+      background-color: #000000;
+      text-transform: uppercase;
+      text-decoration: none;
+      position: relative;
+      margin-top: 1.4rem; }
+    .about-us-content .team-content .cv-link:before {
+      content: url("../img/team-icon.png"); }
+
+@media (max-width: 767px) {
+  .about-us-content {
+    margin: 4rem auto; }
+    .about-us-content img {
+      margin-bottom: 2rem; }
+    .about-us-content .about-us-info {
+      margin-bottom: 4rem; }
+      .about-us-content .about-us-info h2 {
+        font-size: 2.4rem; }
+      .about-us-content .about-us-info .bold-text {
+        font-size: 1.3rem;
+        line-height: 1.8rem;
+        margin: 2rem 0; }
+      .about-us-content .about-us-info .about-us-text p {
+        font-size: 1.3rem;
+        line-height: 2rem; }
+    .about-us-content h2 {
+      font-size: 1.8rem;
+      margin: 0 auto 2rem; }
+    .about-us-content p {
+      line-height: 1.8rem;
+      font-size: 1.4rem;
+      margin: 0 auto 2rem; }
+    .about-us-content .our-skills-info .skills-list-right {
+      margin-bottom: 4rem; }
+    .about-us-content .our-skills-info .skills-list-left li span, .about-us-content .our-skills-info .skills-list-right li span {
+      font-size: 1.5rem;
+      padding: 1.2rem; }
+    .about-us-content .our-skills-info .skills-list-left li .percent-value, .about-us-content .our-skills-info .skills-list-right li .percent-value {
+      width: 10%; }
+    .about-us-content .team-content li .name-member {
+      font-size: 1.4rem;
+      margin-bottom: 3rem; }
+    .about-us-content .team-content .cv-link a {
+      font-size: 1.4rem; }
+    .about-us-content .team-content .cv-link:before {
+      display: block; } }
+
+#footer {
+  background-color: #3f3f44;
+  color: #ffffff;
+  padding: 3rem 0 0; }
+  #footer .yellow {
+    color: #ffeb00; }
+  #footer h3 {
+    font: 400 1.8rem 'Century Gothic', Regular; }
+  #footer p, #footer span {
+    font-size: 1.3rem; }
+  #footer a {
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: #ffffff; }
+  #footer .about p {
+    margin-bottom: 3rem; }
+  #footer .about .learn {
+    font-size: 1.5rem;
+    border-bottom: 3px solid #ffeb00;
+    padding: 1.2rem 1.8rem;
+    background-color: #000000; }
+  #footer .about .stream {
+    margin-top: 4rem; }
+  #footer .about ul {
+    padding: 0; }
+    #footer .about ul li {
+      display: inline-block;
+      float: left;
+      padding-left: 0; }
+      #footer .about ul li img {
+        margin: 1rem 0 0; }
+  #footer .connecting {
+    padding-bottom: 3rem; }
+    #footer .connecting .tweets {
+      padding-left: 0; }
+      #footer .connecting .tweets li {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex; }
+        #footer .connecting .tweets li .fa-twitter {
+          font-size: 2rem;
+          float: left;
+          margin-right: 1rem; }
+        #footer .connecting .tweets li div .small, #footer .connecting .tweets li div a {
+          display: block; }
+        #footer .connecting .tweets li div .small {
+          font-size: 0.8rem;
+          margin: 0.8rem 0 1.5rem; }
+    #footer .connecting .social {
+      padding-left: 0; }
+      #footer .connecting .social h3 {
+        display: block; }
+      #footer .connecting .social .soc-connect {
+        display: inline-block;
+        float: left;
+        margin-right: 2rem; }
+      #footer .connecting .social li {
+        display: inline-block;
+        float: left;
+        font-size: 2rem;
+        text-align: center;
+        width: 3rem;
+        height: 3rem;
+        background-color: #000000;
+        margin-right: 1px; }
+  #footer .contact .address {
+    margin-top: 4rem; }
+    #footer .contact .address ul {
+      padding: 0; }
+      #footer .contact .address ul li {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        margin-bottom: 2rem; }
+        #footer .contact .address ul li .fa {
+          text-align: center;
+          width: 3rem;
+          height: 3rem;
+          background-color: #000000;
+          margin-right: 1.6rem;
+          padding-top: 1rem; }
+        #footer .contact .address ul li .contact-address, #footer .contact .address ul li .contact-phone {
+          margin-top: 1rem; }
+          #footer .contact .address ul li .contact-address span, #footer .contact .address ul li .contact-phone span {
+            display: block; }
+        #footer .contact .address ul li .fa-envelope {
+          padding-top: 0.7rem; }
+        #footer .contact .address ul li .contact-email {
+          margin-top: 0.7rem; }
+  #footer .contact #mc-form {
+    margin-bottom: 5rem;
+    position: relative; }
+    #footer .contact #mc-form .mc-email {
+      border: none;
+      background: none;
+      border-bottom: 1px solid #ffeb00;
+      color: #ffffff;
+      font-size: 1.7rem; }
+    #footer .contact #mc-form .mc-button {
+      background-color: #000000;
+      border: none;
+      width: 2.8rem;
+      height: 2.8rem; }
+    #footer .contact #mc-form .fa-envelope-o {
+      position: absolute;
+      bottom: 1.4rem;
+      font-size: 1.6rem;
+      margin-left: -2.2rem; }
+
+@media (max-width: 767px) {
+  #footer {
+    padding: 0;
+    text-align: center; }
+    #footer .row .about ul {
+      width: 30rem;
+      margin: 0 auto; }
+      #footer .row .about ul li {
+        padding: 0.4rem; }
+    #footer .row .connecting .tweets {
+      margin: 0 auto; }
+      #footer .row .connecting .tweets li div {
+        text-align: left; }
+    #footer .row .connecting .social {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+          -ms-flex-pack: center;
+              justify-content: center; }
+    #footer .row .contact .address {
+      margin-top: 2rem; }
+      #footer .row .contact .address ul {
+        margin: 0 auto; }
+        #footer .row .contact .address ul li a {
+          font-size: 1.2rem; }
+        #footer .row .contact .address ul li .contact-address, #footer .row .contact .address ul li .contact-phone, #footer .row .contact .address ul li .contact-email {
+          text-align: left; } }
+
+#footer .nav-footer {
+  background-color: #000000;
+  padding: 1rem 0;
+  margin-bottom: 1.5rem; }
+  #footer .nav-footer .nav-footer-menu {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    #footer .nav-footer .nav-footer-menu p {
+      font: 400 1.4rem 'Century Gothic', Regular;
+      color: #ffffff; }
+    #footer .nav-footer .nav-footer-menu .nav-skokov-footer li a {
+      font: 300 1.6em 'Code', light;
+      color: #ffffff;
+      padding: 2rem 1rem;
+      margin-left: 1.4rem; }
+      #footer .nav-footer .nav-footer-menu .nav-skokov-footer li a:hover {
+        background-color: #3f3f44; }
+
+@media (min-width: 768px) and (max-width: 1200px) {
+  #footer .nav-footer .nav-footer-menu {
+    display: block; }
+    #footer .nav-footer .nav-footer-menu .navbar-footer {
+      display: block;
+      text-align: center; }
+    #footer .nav-footer .nav-footer-menu #navbar-footer {
+      width: 100%;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+          -ms-flex-pack: center;
+              justify-content: center; }
+      #footer .nav-footer .nav-footer-menu #navbar-footer li a {
+        margin-left: 1rem; } }
+
+@media (max-width: 767px) {
+  #footer .nav-footer {
+    margin: 0;
+    padding: 0; }
+    #footer .nav-footer .container {
+      padding: 0; }
+    #footer .nav-footer .nav-footer-menu {
+      display: block; }
+      #footer .nav-footer .nav-footer-menu .navbar-footer {
+        width: 98%;
+        display: block;
+        text-align: center; }
+      #footer .nav-footer .nav-footer-menu #navbar-footer {
+        width: 98%;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        margin: 0; }
+        #footer .nav-footer .nav-footer-menu #navbar-footer li a {
+          display: block;
+          padding: 0.7rem;
+          margin-left: 0;
+          font-size: 1.2rem; } }

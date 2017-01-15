@@ -1,0 +1,52 @@
+@font-face {
+	font-family: "Century Gothic";
+	src: url(../fonts/CenturyGothic.ttf);
+	src: url(../fonts/CenturyGothic.eot);
+	src: url(../fonts/CenturyGothic.svg);
+	src: url(../fonts/CenturyGothic.woff);
+}
+@font-face {
+	font-family: "Code";
+	src: url(../fonts/Code-Light.ttf);
+	src: url(../fonts/Code-Light.otf);
+	src: url(../fonts/Code-Light.eot);
+	src: url(../fonts/Code-Light.svg);
+	src: url(../fonts/Code-Light.woff);
+}
+
+body {
+	background-color: #f6f6f6;
+	h1, h2, p, span, a {
+		font: 400 10px 'Century Gothic', Regular;
+	}
+	h1, h2 {
+		text-transform: uppercase;
+	}
+	ul {
+		list-style: none;
+	}
+}
+@media (min-width: 1400px) {
+	.container {
+		width: 138rem;
+	}
+}
+@media (max-width: 1399px) {
+	.container {
+		width: 100%;
+	}
+}
+
+@import "header";
+@import "header320";
+@import "header768";
+@import "header992";
+@import "portfolio-name";
+@import "portfolio-name320";
+@import "contact-content";
+@import "contact-content768";
+@import "footer";
+@import "footer320";
+@import "nav-footer";
+@import "nav-footer768";
+@import "nav-footer320";

@@ -1,0 +1,52 @@
+@media (max-width: 767px) {
+  #project {
+    margin-top: 4rem;
+    .project-slider {
+      margin-bottom: 7rem;
+      .project-carousel {
+        margin: 10rem 2rem 0 0;
+        .carousel-left, .carousel-right {
+          font-size: 1.5rem;
+          padding: 2rem 0.2rem;
+        }
+      }
+      .project-indicators {
+        width: 100%;
+        margin-left: -50%;
+        height: 4rem;
+        bottom: -4em;
+        padding: 0 1rem;
+        li {
+          width: 14%;
+          height: 100%;
+        }
+      }
+    }
+    h2 {
+      font-size: 1.6rem;
+      margin: 2rem 0;
+    }
+    p {
+      text-align: justify;
+      font-size: 1.2rem;
+      margin-bottom: 1rem;
+      line-height: 1.6rem;
+    }
+    .project-description, .recent-projects {
+      margin: 0 1rem;
+    }
+    .project-description {
+      margin-bottom: 2rem;
+    }
+    .recent-projects {
+      margin-bottom: 3rem;
+      h2 {
+        padding: 0.8rem 1.8rem;
+      }
+      .offset-left-project {
+        margin-bottom: 2rem;
+      }
+    }
+  }
+}
+

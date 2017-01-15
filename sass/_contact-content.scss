@@ -1,0 +1,115 @@
+.contact {
+  #map {
+    background-color: #808080;
+    height: 65rem;
+    width: 100%;
+    margin: 7.5rem 0;
+  }
+  .contact-content {
+    p {
+      display: inline-block;
+      font-size: 1.8rem;
+      margin-bottom: 3.2rem;
+      padding: 0.8rem 1.3rem;
+      color: #ffea00;
+      background-color: #424147;
+      text-transform: uppercase;
+    }
+    .contact-form {
+      input, textarea {
+        border: none;
+        border-radius: 0;
+        background-color: #ffffff;
+        padding: 2rem;
+        font: 400 1.5rem 'Century Gothic', Regular;
+        color: #424147;
+      }
+      input {
+        margin-bottom: 2rem;
+      }
+      textarea {
+        resize: none; //Убирает уголок справа внизу
+        margin-bottom: 3.5rem;
+      }
+      ::-webkit-input-placeholder {
+        font: 400 1.5rem 'Century Gothic', Regular;
+        color: #424147;
+      }
+      ::-moz-placeholder {
+        font: 400 1.5rem 'Century Gothic', Regular;
+        color: #424147;
+      }
+      ::-moz-placeholder {
+        font: 400 1.5rem 'Century Gothic', Regular;
+        color: #424147;
+      }
+      :-ms-input-placeholder {
+        font: 400 1.5rem 'Century Gothic', Regular;
+        color: #424147;
+      }
+      div {
+        text-align: right;
+        button {
+          font-size: 1.5rem;
+          color: #ffffff;
+          background-color: #000000;
+          padding: 1.2rem;
+          margin-bottom: 8.6rem;
+          border: none;
+        }
+      }
+    }
+  }
+  .address-info {
+    ul {
+      padding-left: 0;
+      margin-bottom: 13.4rem;
+      li {
+        display: flex;
+        align-items: center;
+        margin-bottom: 3.5rem;
+        .fa {
+          text-align: center;
+          width: 3rem;
+          height: 3rem;
+          background-color: #000000;
+          color: #ffffff;
+          margin-right: 1.6rem;
+          padding-top: 0.5rem;
+        }
+        a {
+          color: #424147;
+          line-height: 2.1rem;
+          text-decoration: none;
+          &:hover {
+            color: #15a4fa;
+          }
+        }
+        .contact-info-address, .contact-info-phone {
+          margin-top: 1rem;
+          span {
+            display: block;
+          }
+        }
+        .contact-info-phone {
+          span {
+            text-align: right;
+          }
+        }
+        .fa-envelope {
+          padding-top: 0.4rem;
+        }
+        .contact-onfo-email {
+          margin-top: 0.7rem;
+        }
+        .email-yellow-text {
+          color: #ffea00;
+          background-color: #403f46;
+          &:hover {
+            color: #15a4fa;
+          }
+        }
+      }
+    }
+  }
+}

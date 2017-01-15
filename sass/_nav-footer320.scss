@@ -1,0 +1,34 @@
+@media (max-width: 767px) {
+  #footer {
+    .nav-footer {
+      margin: 0;
+      padding: 0;
+      .container {
+        padding: 0;
+      }
+      .nav-footer-menu {
+        display: block;
+        .navbar-footer {
+          width: 98%;
+          display: block;
+          text-align: center;
+        }
+        #navbar-footer {
+          width: 98%;
+          display: flex;
+          justify-content: center;
+          margin: 0;
+          li {
+            a {
+              display: block;
+              padding: 0.7rem;
+              margin-left: 0;
+              font-size: 1.2rem;
+            }
+          }
+        }
+      }
+
+    }
+  }
+}

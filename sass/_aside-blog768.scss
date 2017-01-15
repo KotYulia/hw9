@@ -1,0 +1,44 @@
+@media (min-width: 768px) and (max-width: 991px) {
+  .blog-aside {
+    .blog-categories, .blog-archive, .blog-popular-posts, .blog-tags {
+      margin: 1rem auto;
+      padding: 2.5rem 10rem 2.5rem;
+      h2 {
+        margin: 0 0 2.4rem;
+        font-size: 1.8rem;
+      }
+      .categories-content, .archive-content {
+        a {
+          font-size: 1.4rem;
+          span {
+            font-size: 1.4rem;
+            width: 2rem;
+            padding: 0.3rem 0;
+          }
+        }
+      }
+    }
+    .blog-popular-posts {
+      li {
+        margin-bottom: 2rem;
+        p {
+          font-size: 1.4rem;
+        }
+        span {
+          font-size: 1rem;
+        }
+      }
+    }
+    .blog-tags {
+      ul {
+        li {
+          margin: 0rem 0.1rem 1.2rem 0;
+          a {
+            font-size: 1.4rem;
+            padding: 0.4rem 0.6rem;
+          }
+        }
+      }
+    }
+  }
+}

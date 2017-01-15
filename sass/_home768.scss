@@ -1,0 +1,50 @@
+@media (min-width: 768px) and (max-width: 1199px) {
+  #home {
+    .home-slider {
+      .home-carousel {
+        margin: 15rem 3rem 0 -1rem;
+        .carousel-left, .carousel-right {
+          font-size: 2.4rem;
+          padding: 2.5rem 0.5rem;
+        }
+      }
+      .home-indicators {
+        li {
+          width: 2rem;
+          height: 2rem;
+        }
+      }
+      .home-slider-content {
+        .slider-text {
+          margin-left: 2rem;
+          h1 {
+            margin-top: 6.4rem;
+            width: 38rem;
+            span {
+              font-size: 4rem;
+              line-height: 5rem;
+            }
+            .we-believe {
+              width: 22rem;
+            }
+          }
+          p {
+            margin-bottom: 4rem;
+            width: 26rem;
+            span {
+              font-size: 1.8rem;
+              line-height: 2.4rem;
+            }
+          }
+          a {
+            padding: 0.6rem 2rem;
+            font-size: 1.4rem;
+          }
+        }
+        .slider-img {
+          margin: 2.2rem 2rem 7.8rem -5rem;
+        }
+      }
+    }
+  }
+}

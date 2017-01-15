@@ -1,0 +1,43 @@
+#clients {
+  text-align: center;
+  margin: 5rem auto 10rem;
+  padding: 0 3rem;
+  overflow: hidden;
+  h1 {
+    font-size: 1.8em;
+    position: relative;
+    display: inline-block;
+    margin: 0 0 3rem;
+    padding: 0 3rem;
+    background-color: #403f46;
+    color: #ffea00;
+    &:before {
+      content: '';
+      position: absolute;
+      top: 50%;
+      height: 1px;
+      left: -999999px;
+      right: 110%;
+      background-color: #cacaca;
+    }
+    &:after {
+      content: '';
+      position: absolute;
+      top: 50%;
+      height: 1px;
+      right: -999999px;
+      left: 110%;
+      background-color: #cacaca;
+    }
+  }
+  .slick-prev:before,
+  .slick-next:before {
+    color: black;
+  }
+  p {
+    font-size: 1.6rem;
+    line-height: 2.1rem;
+    color: #424146;
+    margin-bottom: 4rem;
+  }
+}

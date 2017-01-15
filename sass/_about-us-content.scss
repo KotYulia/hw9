@@ -1,0 +1,140 @@
+.about-us-content {
+  margin: 6rem auto 8.4rem;
+  text-align: center;
+  img {
+    margin-bottom: 3rem;
+  }
+  .about-us-info {
+    color: #424146;
+    margin-bottom: 9rem;
+    text-align: start;
+    h2 {
+      font-size: 3rem;
+      text-transform: uppercase;
+      margin: 0;
+    }
+    .bold-text {
+      font-weight: 700;
+      font-size: 1.5rem;
+      line-height: 2.1rem;
+      margin: 3rem 0;
+    }
+    .about-us-text {
+      p {
+        font-size: 1.5rem;
+        line-height: 2.4rem;
+        margin: 0 auto;
+      }
+    }
+  }
+  h2 {
+    font-size: 1.8rem;
+    margin: 0 auto 3.8rem;
+    padding: 0.8rem 3.2rem;
+    text-transform: uppercase;
+    background-color: #403f46;
+    color: #ffea00;
+    display: inline-block;
+  }
+  p {
+    line-height: 2.1rem;
+    font-size: 1.6rem;
+    color: #424146;
+    margin: 0 auto 4rem;
+    max-width: 96rem;
+  }
+  .our-skills-info {
+    padding-left: 0;
+    margin-bottom: 0;
+    .skills-list-left {
+      margin-bottom: 2rem;
+    }
+    .skills-list-right {
+      margin-bottom: 9rem;
+    }
+    .skills-list-left, .skills-list-right {
+      padding-left: 0;
+      text-align: left;
+      li {
+        margin-bottom: 2rem;
+        background-color: #403f46;
+        span {
+          display: inline-block;
+          font-size: 1.7rem;
+          text-transform: uppercase;
+          padding: 1.2rem;
+          color: #424146;
+          background-color: #ffeb00;
+        }
+        .percent-value {
+          text-align: center;
+          padding: 1.2rem 0;
+          margin-right: -0.4rem;
+          width: 10%;
+          color: #ffea00;
+          background-color: #000000;
+        }
+        .photoshop-skill {
+          width: 80%;
+        }
+        .html-skill {
+          width: 77%;
+        }
+        .wordpress-skill {
+          width: 60%;
+        }
+        .javascript-skill {
+          width: 65%;
+        }
+        .illustrator-skill {
+          width: 70%;
+        }
+        .php-skill {
+          width: 66%;
+        }
+        .joomla-skill {
+          width: 55%;
+        }
+        .mysql-skill {
+          width: 75%;
+        }
+      }
+    }
+  }
+  .team-content {
+    padding-left: 0;
+    li {
+      text-align: center;
+      img {
+        margin: 0 auto 1.4rem;
+        border-radius: 50%;
+        border: 2px solid #ffea00;
+      }
+      .name-member {
+        display: inline-block;
+        font-size: 1.6rem;
+        width: 19rem;
+        color: #ffea00;
+        background-color: #424147;
+        text-transform: uppercase;
+        margin-bottom: 5rem;
+      }
+    }
+    .cv-link {
+      a {
+        display: inline-block;
+        font-size: 1.6rem;
+        width: 19rem;
+        color: #ffea00;
+        background-color: #000000;
+        text-transform: uppercase;
+        text-decoration: none;
+        position: relative;
+        margin-top: 1.4rem;
+      }
+      &:before {
+        content: url("../img/team-icon.png");
+      }
+    }
+  }
+}

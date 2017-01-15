@@ -1,0 +1,54 @@
+@media (max-width: 767px) {
+  #blog {
+    padding: 2rem 0;
+    .blog {
+      .blog-content {
+        article {
+          margin-bottom: 1.5rem;
+          h2 {
+            font-size: 1.8rem;
+          }
+          p {
+            font-size: 1.2rem;
+            margin: 1.5rem 0;
+          }
+          span {
+            font-size: 1rem;
+          }
+          div {
+            padding: 1.5rem;
+            &:before {
+              top: -1rem;
+              border-width: 0 1rem 1rem 1rem;
+            }
+          }
+        }
+        .blog-quote {
+          padding: 1rem 2.5rem 0.6rem;
+          margin-bottom: 1.5rem;
+          blockquote {
+            font: 400 1.8rem 'Century Gothic', Regular;
+          }
+          address {
+            font: 400 1rem 'Century Gothic', Regular;
+          }
+        }
+      }
+    }
+    .blog-pages {
+      margin: 1rem 0 3rem;
+      ul {
+        margin: 0;
+        padding: 0;
+      }
+      a {
+        font-size: 1rem;
+        padding: 1rem;
+        &:hover {
+          padding: 1rem;
+        }
+      }
+    }
+  }
+}
+
