@@ -127,12 +127,13 @@ body {
         font-size: 3rem;
         padding: 3.5rem 0.5rem;
         background-color: #000000; }
+    #project .project-slider .active {
+      margin: 1px; }
     #project .project-slider .project-indicators {
       background-color: #000000;
       width: 100%;
       margin-left: -50%;
-      height: 12rem;
-      bottom: -13rem;
+      bottom: -7rem;
       display: -webkit-box;
       display: -webkit-flex;
       display: -ms-flexbox;
@@ -151,13 +152,8 @@ body {
         #project .project-slider .project-indicators li img {
           width: auto;
           height: auto; }
-        #project .project-slider .project-indicators li.active {
-          border: none;
-          text-decoration: none; }
         #project .project-slider .project-indicators li:hover {
-          opacity: 0.35;
-          background-color: #ffea00;
-          z-index: 10; }
+          background-color: #ffea00; }
     #project .project-slider .project-slider-content {
       width: 100%;
       background-color: #424147; }
